@@ -7,15 +7,13 @@
 2.在需要使用的地方加入ZFCollectionView
 如下：
 
-ZFCollectionViewLayout *lay =[[ZFCollectionViewLayout alloc] init];
+    ZFCollectionViewLayout *lay =[[ZFCollectionViewLayout alloc] init];
     lay.layoutType =layoutType;
-    
     if (layoutType == ZFCollectionViewLayoutCircleType) {
         lay.itemSize =CGSizeMake(100, 100);
     }else{
         lay.itemSize =CGSizeMake(200, 200);
     }
-
     collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
     collectionV.backgroundColor = [UIColor redColor];
     collectionV.cellInfos = self.infos;
@@ -41,9 +39,8 @@ collectionV.cellInfos = self.infos;
 /*
  懒加载数据
  */
--(NSMutableArray *)infos{
-    
-    if (_infos == nil) {
+        -(NSMutableArray *)infos{
+        if (_infos == nil) {
         NSMutableArray *arr =[NSMutableArray arrayWithObjects:@"zhou",@"fei",@"shi",@"ge",@"da",@"hun",@"dan",@"hehe", nil];
         NSMutableArray *arr1 =[NSMutableArray arrayWithCapacity:1];
         
@@ -68,10 +65,9 @@ collectionV.cellInfos = self.infos;
             [arr1 addObject:model];
         }
         _infos = arr1;
-    }
-    
-    return _infos;
-}
+        }
+        return _infos;
+        }
 
 
 
