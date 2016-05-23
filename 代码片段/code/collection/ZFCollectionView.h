@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZFCollectionViewLayout.h"
+#import "ZFCollectionViewCellModel.h"
+#import "ZFCollectionViewFlowLayout.h"
 @interface ZFCollectionView : UICollectionView
 
 //设置layout方式

@@ -7,11 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "ZFCollectionViewCell.h"
 #import "ZFCollectionView.h"
-#import "ZFCollectionViewLayout.h"
-#import "ZFCollectionViewCellModel.h"
-#import "ZFCollectionViewFlowLayout.h"
+
 @interface ViewController ()
 
 @property(nonatomic,retain)ZFCollectionView *collectionV;
@@ -54,10 +51,10 @@
                 model.cellName =@"ZFCollectionViewCell";
             }else{
                 
-                model.cellName =@"ZFCollectionViewCell";
+//                model.cellName =@"ZFCollectionViewCell";
                 model.imgHeight =150;
 
-//                model.xibCellName =@"xibCollectionViewCell";
+                model.xibCellName =@"xibCollectionViewCell";
 
             }
             
