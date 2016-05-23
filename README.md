@@ -36,9 +36,9 @@ collectionV.cellInfos = self.infos;
 可以自定义cell 将类名传给model （如果是使用代码自定义cell则传给cellName，xib自定义的cell则传给xibCellName）
 详见demo
 
-/*
- 懒加载数据
- */
+        /*
+        懒加载数据
+        */
         -(NSMutableArray *)infos{
         if (_infos == nil) {
         NSMutableArray *arr =[NSMutableArray arrayWithObjects:@"zhou",@"fei",@"shi",@"ge",@"da",@"hun",@"dan",@"hehe", nil];
@@ -54,7 +54,7 @@ collectionV.cellInfos = self.infos;
                 model.cellName =@"ZFCollectionViewCell";
             }else{
                 
-//                model.cellName =@"ZFCollectionViewCell";
+        //                model.cellName =@"ZFCollectionViewCell";
                 model.imgHeight =150;
 
                 model.xibCellName =@"xibCollectionViewCell";
