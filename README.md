@@ -2,6 +2,16 @@
 
 结合网上的collectionView常用布局整合的collectionView使用工具
 
+支持五种布局方式
+ZFCollectionViewLayoutType有两种
+ZFCollectionViewLayoutCircleType,
+ZFCollectionViewLayoutStackType
+
+ZFCollectionViewFlowLayoutType有三种
+ZFCollectionViewFlowLayoutRotatePageType,
+ZFCollectionViewFlowLayoutWaterfallType,
+ZFCollectionViewFlowLayoutLineType
+
 1.导入collectionView文件夹下的文件
 
 2.在需要使用的地方加入ZFCollectionView
@@ -19,15 +29,7 @@
     collectionV.cellInfos = self.infos;
     [self.view addSubview:collectionV];
 
-其中有五种布局方式
-ZFCollectionViewLayoutType有两种
-ZFCollectionViewLayoutCircleType,
-ZFCollectionViewLayoutStackType
 
-ZFCollectionViewFlowLayoutType有三种
-ZFCollectionViewFlowLayoutRotatePageType,
-ZFCollectionViewFlowLayoutWaterfallType,
-ZFCollectionViewFlowLayoutLineType
 
 根据需求设置数据
 collectionV.cellInfos = self.infos;
