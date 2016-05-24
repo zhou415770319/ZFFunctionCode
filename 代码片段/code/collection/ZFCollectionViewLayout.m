@@ -19,6 +19,7 @@
 -(void)setLayoutType:(ZFCollectionViewLayoutType)layoutType{
     if (_layoutType != layoutType) {
         _layoutType =layoutType;
+        
     }
 }
 

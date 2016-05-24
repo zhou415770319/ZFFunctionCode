@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@class ZFTableViewCellModel;
+#import "ZFTableViewCellModel.h"
 @interface ZFTableViewCell : UITableViewCell
 //数据
 @property(nonatomic,retain)ZFTableViewCellModel *cellInfo;
+
 @end

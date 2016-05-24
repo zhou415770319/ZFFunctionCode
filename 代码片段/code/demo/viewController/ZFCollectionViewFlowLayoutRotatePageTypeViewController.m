@@ -29,7 +29,7 @@
     lay.flowLayoutType =ZFCollectionViewFlowLayoutRotatePageType;
     
     lay.scrollDirection = UICollectionViewScrollDirectionVertical;
-    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,  self.view.frame.size.height-64) collectionViewLayout:lay];
+    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.height-64) collectionViewLayout:lay];
     //ZFCollectionViewFlowLayoutLineType pagingEnabled不需要设置
     self.collectionV.pagingEnabled =YES;
     

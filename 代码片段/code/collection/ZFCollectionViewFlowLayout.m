@@ -113,8 +113,7 @@
  * targetContentOffset ：通过修改后，collectionView最终的contentOffset(取决定情况)
  * proposedContentOffset ：默认情况下，collectionView最终的contentOffset
  */
-- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity
-{
+- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity{
     
     if (self.flowLayoutType == ZFCollectionViewFlowLayoutWaterfallType) {
         return proposedContentOffset;

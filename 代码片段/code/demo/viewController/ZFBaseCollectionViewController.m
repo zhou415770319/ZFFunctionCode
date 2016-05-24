@@ -61,7 +61,7 @@
 
     lay.itemSize =CGSizeMake(100, 100);
     
-    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,  self.view.frame.size.height-64) collectionViewLayout:lay];
+    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.height-64) collectionViewLayout:lay];
     //    collectionV.layout = [[ZFCollectionViewLayout alloc] layoutType:ZFCollectionViewLayoutStackType];
 //    collectionV.backgroundColor = [UIColor redColor];
     self.collectionV.cellInfos = self.infos;

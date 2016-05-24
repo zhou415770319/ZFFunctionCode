@@ -8,6 +8,7 @@
 
 #import "ZFTableView.h"
 #import "ZFTableViewCellModel.h"
+#import "ZFTableViewCell.h"
 @interface ZFTableView()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -18,7 +19,6 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor =[UIColor whiteColor];
         //去除分割线
         self.separatorStyle = UITableViewCellSeparatorStyleNone;
         
@@ -61,7 +61,7 @@
         
     }
     
-
+    
 }
 
 
@@ -96,7 +96,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     
-    float height = 20;
+    float height = 10;
     if (self.heightForHeader) {
         height =self.heightForHeader;
     }
@@ -106,29 +106,53 @@
 
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = nil;
+    
+    ZFTableViewCellModel *cellInfo = self.cellInfos[indexPath.row];
+    
+    ZFTableViewCell *cell = nil;
     
     if (cell ==nil) {
-        cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
-        if (![[self.cellInfos[indexPath.section][indexPath.row] objectForKey:@"image"] isEqual:[NSNull null]]) {
-            cell.imageView.image =[UIImage imageNamed:[self.cellInfos[indexPath.section][indexPath.row] valueForKey:@"image"]];
+        if (cellInfo.cellName) {//如果cellNmae存在
+            //取出已注册的cell
+            cell = [tableView dequeueReusableCellWithIdentifier:cellInfo.cellName forIndexPath:indexPath];
+        }else if (cellInfo.xibCellName){//如果XibcellNmae存在
+            //取出已注册的cell
+            
+            cell = [tableView dequeueReusableCellWithIdentifier:cellInfo.xibCellName forIndexPath:indexPath];
         }
-        
-        cell.textLabel.text =[self.cellInfos[indexPath.section][indexPath.row] valueForKey:@"text"];
-        cell.detailTextLabel.text =[self.cellInfos[indexPath.section][indexPath.row] valueForKey:@"detailText"];
-        
     }
-    UIView *v =[UIView new];
-    [cell.contentView addSubview:v];
-    v.backgroundColor =[UIColor darkGrayColor];
-    float vHeight =[self tableView:tableView heightForRowAtIndexPath:indexPath]-1;
-    if (self.heightForRow) {
-        vHeight = self.heightForRow-1;
-    }
-    v.frame =CGRectMake(0, vHeight, cell.bounds.size.width, 1);
     
+    cell.cellInfo = cellInfo;
     return cell;
     
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    // 取消选中状态
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+
+    ZFTableViewCellModel *cellInfo = self.cellInfos[indexPath.row];
+    //选择行，如果存在PopToViewController 且对应的class文件已创建则跳转到对应界面
+    if (cellInfo.PopToViewController) {
+        if (NSClassFromString(cellInfo.PopToViewController)) {
+            UIViewController *pop =[[NSClassFromString(cellInfo.PopToViewController) alloc] init];
+            pop.title = cellInfo.PopToViewController;
+            [[self viewController].navigationController pushViewController:pop animated:YES];
+        }
+    }
+    
+}
+
+//获取view所在的Controller
+- (UIViewController *)viewController {
+    for (UIView* next = [self superview]; next; next = next.superview) {
+        UIResponder *nextResponder = [next nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
+    }
+    return nil;
 }
 
 @end

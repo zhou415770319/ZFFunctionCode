@@ -9,10 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface ZFTableViewCellModel : NSObject
+//这两个属性必须有一个不为空    cell类型
 //class
 @property(nonatomic,copy)NSString *cellName;
 //xib
 @property(nonatomic,copy)NSString *xibCellName;
+
+//didSelectRow 需要跳转的controller
+@property(nonatomic,copy)NSString *PopToViewController;
+
+
 
 @property(nonatomic,copy)NSString *title;
 

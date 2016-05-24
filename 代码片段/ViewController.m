@@ -20,16 +20,17 @@
 @implementation ViewController
 @synthesize collectionV;
 - (void)viewDidLoad {
-    
+    [super viewDidLoad];
+
+    self.view.backgroundColor =[UIColor whiteColor];
     [self loadCellDataWithLayoutType:ZFCollectionViewLayoutCircleType];
     
     for (int i =0 ; i<5; i++) {
-        CGRect rect = CGRectMake(10, 340+40*i, self.view.frame.size.width-20, 30);
+        CGRect rect = CGRectMake(10, 340+33*i+64, self.view.frame.size.width-20, 30);
         [self addButtonWithFrame:rect Tag:i+100];
 
     }
     
-    [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 /*
@@ -80,7 +81,7 @@
         lay.itemSize =CGSizeMake(200, 200);
     }
 
-    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
     collectionV.backgroundColor = [UIColor redColor];
     collectionV.cellInfos = self.infos;
     [self.view addSubview:collectionV];
@@ -108,7 +109,7 @@
     }
     
     
-    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
     collectionV.cellInfos = self.infos;
     [self.view addSubview:collectionV];
     
