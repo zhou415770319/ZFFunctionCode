@@ -31,9 +31,9 @@
 		2D853C201CED4F20000D406B /* ZFBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D853C1F1CED4F20000D406B /* ZFBaseCollectionViewController.m */; };
 		2D853C241CED6EB6000D406B /* xibCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D853C221CED6EB6000D406B /* xibCollectionViewCell.m */; };
 		2D853C251CED6EB6000D406B /* xibCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D853C231CED6EB6000D406B /* xibCollectionViewCell.xib */; };
-		2D86E1DB1CF2D99D00F39D41 /* ZFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1DA1CF2D99D00F39D41 /* ZFTableView.m */; };
-		2D86E1DE1CF2DA2300F39D41 /* ZFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1DD1CF2DA2300F39D41 /* ZFTableViewCell.m */; };
-		2D86E1E11CF2DA5700F39D41 /* ZFTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1E01CF2DA5700F39D41 /* ZFTableViewCellModel.m */; };
+		2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1F81CF3EEF500F39D41 /* ZFTableView.m */; };
+		2D86E1FE1CF3EEF500F39D41 /* ZFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1FA1CF3EEF500F39D41 /* ZFTableViewCell.m */; };
+		2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1FC1CF3EEF500F39D41 /* ZFTableViewCellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,12 +100,12 @@
 		2D853C211CED6EB6000D406B /* xibCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xibCollectionViewCell.h; sourceTree = "<group>"; };
 		2D853C221CED6EB6000D406B /* xibCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xibCollectionViewCell.m; sourceTree = "<group>"; };
 		2D853C231CED6EB6000D406B /* xibCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibCollectionViewCell.xib; sourceTree = "<group>"; };
-		2D86E1D91CF2D99D00F39D41 /* ZFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableView.h; sourceTree = "<group>"; };
-		2D86E1DA1CF2D99D00F39D41 /* ZFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableView.m; sourceTree = "<group>"; };
-		2D86E1DC1CF2DA2300F39D41 /* ZFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCell.h; sourceTree = "<group>"; };
-		2D86E1DD1CF2DA2300F39D41 /* ZFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCell.m; sourceTree = "<group>"; };
-		2D86E1DF1CF2DA5700F39D41 /* ZFTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellModel.h; sourceTree = "<group>"; };
-		2D86E1E01CF2DA5700F39D41 /* ZFTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellModel.m; sourceTree = "<group>"; };
+		2D86E1F71CF3EEF500F39D41 /* ZFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableView.h; sourceTree = "<group>"; };
+		2D86E1F81CF3EEF500F39D41 /* ZFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableView.m; sourceTree = "<group>"; };
+		2D86E1F91CF3EEF500F39D41 /* ZFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCell.h; sourceTree = "<group>"; };
+		2D86E1FA1CF3EEF500F39D41 /* ZFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCell.m; sourceTree = "<group>"; };
+		2D86E1FB1CF3EEF500F39D41 /* ZFTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellModel.h; sourceTree = "<group>"; };
+		2D86E1FC1CF3EEF500F39D41 /* ZFTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,12 +270,12 @@
 		2D86E1D81CF2D95D00F39D41 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
-				2D86E1D91CF2D99D00F39D41 /* ZFTableView.h */,
-				2D86E1DA1CF2D99D00F39D41 /* ZFTableView.m */,
-				2D86E1DC1CF2DA2300F39D41 /* ZFTableViewCell.h */,
-				2D86E1DD1CF2DA2300F39D41 /* ZFTableViewCell.m */,
-				2D86E1DF1CF2DA5700F39D41 /* ZFTableViewCellModel.h */,
-				2D86E1E01CF2DA5700F39D41 /* ZFTableViewCellModel.m */,
+				2D86E1F71CF3EEF500F39D41 /* ZFTableView.h */,
+				2D86E1F81CF3EEF500F39D41 /* ZFTableView.m */,
+				2D86E1F91CF3EEF500F39D41 /* ZFTableViewCell.h */,
+				2D86E1FA1CF3EEF500F39D41 /* ZFTableViewCell.m */,
+				2D86E1FB1CF3EEF500F39D41 /* ZFTableViewCellModel.h */,
+				2D86E1FC1CF3EEF500F39D41 /* ZFTableViewCellModel.m */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -418,7 +418,7 @@
 				2D13FEE91CEAC7FC002D2A39 /* demoCollectionViewCell.m in Sources */,
 				2D13FEA31CE962E8002D2A39 /* ViewController.m in Sources */,
 				2D853C241CED6EB6000D406B /* xibCollectionViewCell.m in Sources */,
-				2D86E1DE1CF2DA2300F39D41 /* ZFTableViewCell.m in Sources */,
+				2D86E1FE1CF3EEF500F39D41 /* ZFTableViewCell.m in Sources */,
 				2D853C111CED4A91000D406B /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m in Sources */,
 				2D13FEE51CE9B5F2002D2A39 /* ZFCollectionViewFlowLayout.m in Sources */,
 				2D853C0E1CED4A83000D406B /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */,
@@ -427,8 +427,8 @@
 				2D13FEDC1CE97634002D2A39 /* ZFCollectionView.m in Sources */,
 				2D13FEA91CE962E8002D2A39 /* ____.xcdatamodeld in Sources */,
 				2D853C201CED4F20000D406B /* ZFBaseCollectionViewController.m in Sources */,
-				2D86E1E11CF2DA5700F39D41 /* ZFTableViewCellModel.m in Sources */,
-				2D86E1DB1CF2D99D00F39D41 /* ZFTableView.m in Sources */,
+				2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */,
+				2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */,
 				2D13FEA01CE962E8002D2A39 /* AppDelegate.m in Sources */,
 				2D13FEE21CE99521002D2A39 /* ZFCollectionViewCellModel.m in Sources */,
 				2D13FE9D1CE962E8002D2A39 /* main.m in Sources */,
@@ -575,7 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "代码片段/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feiyu.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -587,7 +587,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "代码片段/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feiyu.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

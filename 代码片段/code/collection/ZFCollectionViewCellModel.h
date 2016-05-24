@@ -24,7 +24,7 @@
 @property(nonatomic,copy)NSString *title;
 
 
-@property(nonatomic,copy)UIImage *img;
+@property(nonatomic)UIImage *img;
 
 
 @property(nonatomic,copy)NSString *des;

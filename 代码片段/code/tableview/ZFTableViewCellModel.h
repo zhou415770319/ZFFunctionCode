@@ -9,5 +9,18 @@
 #import <Foundation/Foundation.h>
 
 @interface ZFTableViewCellModel : NSObject
+//class
+@property(nonatomic,copy)NSString *cellName;
+//xib
+@property(nonatomic,copy)NSString *xibCellName;
+
+@property(nonatomic,copy)NSString *title;
+
+
+@property(nonatomic,copy)NSString *imgName;
+
+
+@property(nonatomic,copy)NSString *des;
+
 
 @end
