@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZFTableViewCellModel.h"
+#import "ZFTableViewCell.h"
 @interface ZFTableView : UITableView
 /**
  *  cell 信息

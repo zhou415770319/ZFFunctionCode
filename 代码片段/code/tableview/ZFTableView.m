@@ -7,8 +7,7 @@
 //
 
 #import "ZFTableView.h"
-#import "ZFTableViewCellModel.h"
-#import "ZFTableViewCell.h"
+
 @interface ZFTableView()<UITableViewDelegate,UITableViewDataSource>
 
 @end
