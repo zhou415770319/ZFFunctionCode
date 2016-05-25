@@ -27,13 +27,13 @@
             ZFCollectionViewCellModel *model = [[ZFCollectionViewCellModel alloc] init];
             model.title = arr[i];
             
-            if (i != 3) {
-                model.cellName =@"ZFCollectionViewCell";
-            }else{
+//            if (i != 3) {
+//                model.cellName =@"ZFCollectionViewCell";
+//            }else{
 //                model.cellName =@"ZFCollectionViewCell";
                 
                   model.xibCellName =@"xibCollectionViewCell";
-            }
+//            }
             
             model.imgName =[NSString stringWithFormat:@"%i",i];
             [arr1 addObject:model];

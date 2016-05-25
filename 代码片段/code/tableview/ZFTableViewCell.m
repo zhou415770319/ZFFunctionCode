@@ -7,7 +7,6 @@
 //
 
 #import "ZFTableViewCell.h"
-#import "ZFTableViewCellModel.h"
 @interface ZFTableViewCell()
 
 

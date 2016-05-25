@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ZFCollectionViewCellModel.h"
-@interface xibCollectionViewCell : UICollectionViewCell
+#import "ZFCollectionViewCell.h"
 
-@property(nonatomic,retain)ZFCollectionViewCellModel* cellInfo;
+@interface xibCollectionViewCell : ZFCollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *contentImg;
 @property (weak, nonatomic) IBOutlet UILabel *titleLab;

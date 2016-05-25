@@ -15,14 +15,14 @@
     // Initialization code
 }
 
-
--(void)setCellInfo:(ZFCollectionViewCellModel *)cellInfo{
+-(void)drawRect:(CGRect)rect{
     
-    UIImage *img = [UIImage imageNamed:cellInfo.imgName];
+    UIImage *img = [UIImage imageNamed:self.cellInfo.imgName];
     
     self.contentImg.image =img;
     
-    self.titleLab.text = cellInfo.title;
+    self.titleLab.text = self.cellInfo.title;
+    self.titleLab.textAlignment =NSTextAlignmentCenter;
     
 }
 
