@@ -11,6 +11,13 @@ self.infos 是tableview的数据
 
 3.添加数据
 
+传入数据必须为包含ZFTableViewCellModel或子类型的数组
+传入cellName表示cell为代码创建的cell
+传入xibCellName表示cell为xib创建的cell
+自定义cell需要继承自ZFTableViewCell 
+
+如需使用tableView其他功能，请重写delegate方法
+
     -(NSMutableArray *)infos{
     
     if (_infos == nil) {
@@ -39,8 +46,4 @@ self.infos 是tableview的数据
     return _infos;
     }
 
-传入数据必须为包含ZFTableViewCellModel或子类型的数组
-传入cellName表示cell为代码创建的cell
-传入xibCellName表示cell为xib创建的cell
 
-如需使用tableView其他功能，请重写delegate方法
