@@ -37,6 +37,7 @@ collectionV.cellInfos = self.infos;
 数据必须是ZFCollectionViewCellModel类
 可以自定义cell 将类名传给model （如果是使用代码自定义cell则传给cellName，xib自定义的cell则传给xibCellName）
 详见demo
+自定义cell需要继承自ZFCollectionViewCell 
 
         /*
         懒加载数据
@@ -70,6 +71,7 @@ collectionV.cellInfos = self.infos;
         }
         return _infos;
         }
+        
 
 
 
