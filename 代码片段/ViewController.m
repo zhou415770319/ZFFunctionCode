@@ -18,7 +18,6 @@
 @end
 
 @implementation ViewController
-@synthesize collectionV;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -46,18 +45,18 @@
             
             ZFCollectionViewCellModel *model = [[ZFCollectionViewCellModel alloc] init];
             model.title = arr[i];
-            model.imgWidth =100;
-            model.imgHeight =100;
-            if (i != 3) {
-                model.cellName =@"ZFCollectionViewCell";
-            }else{
-                
+//            model.imgWidth =100;
+//            model.imgHeight =100;
+//            if (i != 3) {
 //                model.cellName =@"ZFCollectionViewCell";
-                model.imgHeight =150;
+//            }else{
+            
+//                model.cellName =@"ZFCollectionViewCell";
+//                model.imgHeight =150;
 
                 model.xibCellName =@"xibCollectionViewCell";
 
-            }
+//            }
             
             model.imgName =[NSString stringWithFormat:@"%i",i];
             [arr1 addObject:model];
@@ -67,6 +66,20 @@
     
     return _infos;
 }
+
+
+-(ZFCollectionView *)collectionV{
+    
+    if (!_collectionV) {
+        ZFCollectionViewLayout *lay =[[ZFCollectionViewLayout alloc] init];
+        
+        _collectionV =[[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+        _collectionV.contentOffset = CGPointMake(0, 0);
+        [self.view addSubview:_collectionV];
+    }
+    return _collectionV;
+}
+
 
 //layout自定义
 -(void)loadCellDataWithLayoutType:(ZFCollectionViewLayoutType)layoutType{
@@ -81,10 +94,12 @@
         lay.itemSize =CGSizeMake(200, 200);
     }
 
-    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
-    collectionV.backgroundColor = [UIColor redColor];
-    collectionV.cellInfos = self.infos;
-    [self.view addSubview:collectionV];
+    [self.collectionV setLayout:lay];
+    self.collectionV.cellInfos = self.infos;
+
+//    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+//    self.collectionV.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:collectionV];
     
 }
 
@@ -98,20 +113,21 @@
     if (flowLayoutType == ZFCollectionViewFlowLayoutWaterfallType) {//waterfalltype需要设置数据（数据中需要包含img 高度和宽度）和列数
         lay.dataList =self.infos;
         lay.columCount =2;
-        collectionV.pagingEnabled =NO;
+        self.collectionV.pagingEnabled =NO;
         //waterfalltype 不支持横向
         lay.scrollDirection = UICollectionViewScrollDirectionVertical;
 
     }else{
-        collectionV.pagingEnabled =YES;
+        self.collectionV.pagingEnabled =YES;
         lay.scrollDirection = UICollectionViewScrollDirectionHorizontal;
 
     }
     
-    
-    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
-    collectionV.cellInfos = self.infos;
-    [self.view addSubview:collectionV];
+    [self.collectionV setLayout:lay];
+    self.collectionV.cellInfos = self.infos;
+//    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+//    collectionV.cellInfos = self.infos;
+//    [self.view addSubview:collectionV];
     
     
 }
@@ -135,7 +151,7 @@
 }
 
 -(void)clickBtn:(UIButton*)btn{
-    [collectionV removeFromSuperview];
+//    [collectionV removeFromSuperview];
     switch (btn.tag-100) {
         case 0:
             [self loadCellDataWithLayoutType:ZFCollectionViewLayoutCircleType];

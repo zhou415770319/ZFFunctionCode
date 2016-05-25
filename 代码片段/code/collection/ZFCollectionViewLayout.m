@@ -24,6 +24,7 @@
 }
 
 
+
 /**
  * 决定cell怎么排布
  */
@@ -94,6 +95,8 @@
 
 -(UICollectionViewLayoutAttributes *)LayoutStackAttributes:(NSIndexPath *)indexPath{
     
+    self.collectionView.contentOffset = CGPointMake(0, 0);
+
     UICollectionViewLayoutAttributes *attrs = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     
     attrs.center = CGPointMake(self.collectionView.frame.size.width * 0.5, self.collectionView.frame.size.height * 0.5);
@@ -118,8 +121,11 @@
 }
 
 -(UICollectionViewLayoutAttributes *)LayoutCircleAttributes:(NSIndexPath *)indexPath{
+    
+    self.collectionView.contentOffset = CGPointMake(0, 0);
+
     // 半径
-    CGFloat radius = 80;
+    CGFloat radius = self.collectionView.frame.size.width/2-(self.itemSize.width/2+10);
     
     // 圆心
     CGFloat centerX = self.collectionView.frame.size.width * 0.5;

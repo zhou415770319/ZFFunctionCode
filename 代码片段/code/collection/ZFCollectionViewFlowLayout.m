@@ -64,7 +64,7 @@
         default:
             break;
     }
-    
+
 }
 
 
@@ -172,7 +172,7 @@
  */
 - (void)prepareLayoutLineType
 {
-    
+
     CGFloat inset =0;
     self.itemSize = CGSizeMake(ZFCollectionViewWidth - 2*inset, ZFCollectionViewHeight);
     self.sectionInset = UIEdgeInsetsMake(0, inset, 0, inset);
