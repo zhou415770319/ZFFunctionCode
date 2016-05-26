@@ -68,18 +68,18 @@
 }
 
 
--(ZFCollectionView *)collectionV{
-    
-    if (!_collectionV) {
-        ZFCollectionViewLayout *lay =[[ZFCollectionViewLayout alloc] init];
-        
-        _collectionV =[[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
-        _collectionV.contentOffset = CGPointMake(0, 0);
-        [self.view addSubview:_collectionV];
-    }
-    return _collectionV;
-}
-
+//-(ZFCollectionView *)collectionV{
+//    
+//    if (!_collectionV) {
+//        ZFCollectionViewLayout *lay =[[ZFCollectionViewLayout alloc] init];
+//        
+//        _collectionV =[[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+//        _collectionV.contentOffset = CGPointMake(0, 0);
+//        [self.view addSubview:_collectionV];
+//    }
+//    return _collectionV;
+//}
+//
 
 //layout自定义
 -(void)loadCellDataWithLayoutType:(ZFCollectionViewLayoutType)layoutType{
@@ -97,9 +97,9 @@
     [self.collectionV setLayout:lay];
     self.collectionV.cellInfos = self.infos;
 
-//    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
-//    self.collectionV.backgroundColor = [UIColor redColor];
-//    [self.view addSubview:collectionV];
+    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+    self.collectionV.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.collectionV];
     
 }
 
@@ -125,9 +125,9 @@
     
     [self.collectionV setLayout:lay];
     self.collectionV.cellInfos = self.infos;
-//    collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
-//    collectionV.cellInfos = self.infos;
-//    [self.view addSubview:collectionV];
+    self.collectionV = [[ZFCollectionView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,  self.view.frame.size.width) collectionViewLayout:lay];
+    self.collectionV.cellInfos = self.infos;
+    [self.view addSubview:self.collectionV];
     
     
 }

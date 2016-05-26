@@ -21,7 +21,7 @@ typedef enum : NSUInteger {
 @property(nonatomic)ZFCollectionViewFlowLayoutType flowLayoutType;
 
 
-
+//waterfalltype需要设置数据（数据中需要包含img 高度和宽度）和列数
 //WaterfallType参数
 // 计算列数
 @property (nonatomic,assign)NSInteger columCount;

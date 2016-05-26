@@ -24,7 +24,7 @@
     
     if (!_img1) {
         _img1 = [[UIImageView alloc]init];
-        _img1.frame = CGRectMake(0, 20, self.bounds.size.width/2, self.bounds.size.height-20);
+        _img1.frame = CGRectMake(10, 20, self.bounds.size.width-20, self.bounds.size.height-40);
         [self addSubview:_img1];
     }
     return _img1;
@@ -33,7 +33,8 @@
 -(UILabel *)titleLab1{
     
     if (!_titleLab1) {
-        _titleLab1 = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width/2,20)];
+        _titleLab1 = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, self.bounds.size.width-20
+                                                               ,20)];
         _titleLab1.textColor = [UIColor redColor];
         [self addSubview:_titleLab1];
     }

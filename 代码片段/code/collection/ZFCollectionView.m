@@ -30,7 +30,7 @@
 -(void)setLayout:(UICollectionViewLayout *)layout{
     
     self.collectionViewLayout = layout;
-    
+    [self layoutIfNeeded];
 }
 
 
@@ -100,7 +100,7 @@
     }
     
     cell.cellInfo = cellInfo;
-    
+    NSLog(@"%@",cell);
     return cell;
     
 }
@@ -117,28 +117,28 @@
 }
 
 
--(BOOL)collectionView:(UICollectionView *)collectionView shouldShowMenuForItemAtIndexPath:(NSIndexPath *)indexPath{
-    
-    return YES;
-    
-}
-
-//拖动
--(void)moveItemAtIndexPath:(NSIndexPath *)indexPath toIndexPath:(NSIndexPath *)newIndexPath{
-    ZFCollectionViewCellModel *cellInfo = self.cellInfos[indexPath.item];
-    
-    [self.cellInfos removeObjectAtIndex:indexPath.item];
-    [self.cellInfos insertObject:cellInfo atIndex:newIndexPath.item];
-    
-}
-
--(void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath{
-    ZFCollectionViewCellModel *cellInfo = self.cellInfos[sourceIndexPath.item];
-    
-    [self.cellInfos removeObjectAtIndex:sourceIndexPath.item];
-    [self.cellInfos insertObject:cellInfo atIndex:destinationIndexPath.item];
-    
-}
+//-(BOOL)collectionView:(UICollectionView *)collectionView shouldShowMenuForItemAtIndexPath:(NSIndexPath *)indexPath{
+//    
+//    return YES;
+//    
+//}
+//
+////拖动
+//-(void)moveItemAtIndexPath:(NSIndexPath *)indexPath toIndexPath:(NSIndexPath *)newIndexPath{
+//    ZFCollectionViewCellModel *cellInfo = self.cellInfos[indexPath.item];
+//    
+//    [self.cellInfos removeObjectAtIndex:indexPath.item];
+//    [self.cellInfos insertObject:cellInfo atIndex:newIndexPath.item];
+//    
+//}
+//
+//-(void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath{
+//    ZFCollectionViewCellModel *cellInfo = self.cellInfos[sourceIndexPath.item];
+//    
+//    [self.cellInfos removeObjectAtIndex:sourceIndexPath.item];
+//    [self.cellInfos insertObject:cellInfo atIndex:destinationIndexPath.item];
+//    
+//}
 
 /*
  // Only override drawRect: if you perform custom drawing.

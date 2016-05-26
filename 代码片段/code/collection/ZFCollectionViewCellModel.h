@@ -17,8 +17,10 @@
 
 
 @property(nonatomic,copy)NSString *imgName;
-@property(nonatomic)CGFloat imgHeight;
-@property(nonatomic)CGFloat imgWidth;
+
+//waterfallType 必须设置的参数
+@property(nonatomic)CGFloat itemHeight;
+@property(nonatomic)CGFloat itemWidth;
 
 
 @property(nonatomic,copy)NSString *title;

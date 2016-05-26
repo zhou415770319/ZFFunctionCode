@@ -1,14 +1,14 @@
 //
-//  xibCollectionViewCell.m
+//  xib2CollectionViewCell.m
 //  代码片段
 //
-//  Created by w on 16/5/19.
+//  Created by w on 16/5/26.
 //  Copyright © 2016年 ZF. All rights reserved.
 //
 
-#import "xibCollectionViewCell.h"
+#import "xib2CollectionViewCell.h"
 
-@implementation xibCollectionViewCell
+@implementation xib2CollectionViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -20,12 +20,11 @@
     
     UIImage *img = [UIImage imageNamed:cellInfo.imgName];
     
-    self.contentImg.image =img;
+    self.img.image =img;
     
-    self.titleLab.text = cellInfo.title;
-    self.titleLab.textAlignment =NSTextAlignmentCenter;
+    self.title.text = cellInfo.title;
+    self.title.textAlignment =NSTextAlignmentCenter;
     
 }
-
 
 @end

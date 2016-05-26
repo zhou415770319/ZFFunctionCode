@@ -11,4 +11,10 @@
 
 @interface ZFCollectionViewFlowLayoutLineTypeViewController : ZFBaseCollectionViewController
 
+//collectionView
+//@property(nonatomic,retain)ZFCollectionView *collectionV;
+////显示数据
+//@property(nonatomic,retain)NSMutableArray *infos;
+//
+
 @end

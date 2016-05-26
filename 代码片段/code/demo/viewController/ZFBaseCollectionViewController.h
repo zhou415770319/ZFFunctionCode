@@ -19,4 +19,7 @@
 @property(nonatomic,retain)NSMutableArray *infos;
 
 
+-(void)changeLayout:(UICollectionViewLayout *)layout;
+
+
 @end

@@ -178,7 +178,7 @@
     self.sectionInset = UIEdgeInsetsMake(0, inset, 0, inset);
     
     [super prepareLayout];
-    
+
 }
 
 /**
@@ -212,12 +212,14 @@
  */
 - (void)prepareLayoutRotatePageType
 {
-    CGFloat inset =0;
+    
+    CGFloat inset = 0;
     self.itemSize = CGSizeMake(ZFCollectionViewWidth - 2*inset, ZFCollectionViewHeight);
     self.sectionInset = UIEdgeInsetsMake(0, inset, 0, inset);
     
     [super prepareLayout];
     
+
 }
 
 
@@ -341,11 +343,15 @@
     [super prepareLayout];
     
     // 计算每列的宽度
+    
+    if (self.columCount<0) {
+        NSLog(@"设置的columCount错误");
+    }
+    
     CGFloat contentWidth = self.collectionView.bounds.size.width - self.sectionInset.left - self.sectionInset.right;
+    
     CGFloat colWidth = (contentWidth - (self.columCount - 1) * self.minimumInteritemSpacing) / self.columCount;
-    self.minimumInteritemSpacing = 10;
-    self.minimumLineSpacing = 10;
-    [self attribute:colWidth];
+        [self attribute:colWidth];
     
 }
 
@@ -384,8 +390,8 @@
         colCount[col]++;
         
         // 3.计算frame
-        CGFloat w = cellM.imgWidth;
-        CGFloat h = cellM.imgHeight * colWidth / w;
+        CGFloat w = cellM.itemWidth;
+        CGFloat h =cellM.itemHeight;
         CGFloat x = self.sectionInset.left + (colWidth + self.minimumInteritemSpacing) * col;
         CGFloat y = colHeight[col] + self.minimumLineSpacing;
         
@@ -393,7 +399,7 @@
         
         colHeight[col] += (h + self.minimumLineSpacing);
         
-        attr.frame = CGRectMake(x, y, colWidth, h);
+        attr.frame = CGRectMake(x, y, w, h);
         
         // 4.计算总的高度
         totoalItemHeight += h;

@@ -45,6 +45,8 @@
 		2D86E24D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E23D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */; };
 		2D86E2511CF54AA900F39D41 /* xib1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E24F1CF54AA900F39D41 /* xib1CollectionViewCell.m */; };
 		2D86E2521CF54AA900F39D41 /* xib1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2501CF54AA900F39D41 /* xib1CollectionViewCell.xib */; };
+		2D86E2571CF694DE00F39D41 /* xib2CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2551CF694DE00F39D41 /* xib2CollectionViewCell.m */; };
+		2D86E2581CF694DE00F39D41 /* xib2CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2561CF694DE00F39D41 /* xib2CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +137,9 @@
 		2D86E24E1CF54AA900F39D41 /* xib1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xib1CollectionViewCell.h; sourceTree = "<group>"; };
 		2D86E24F1CF54AA900F39D41 /* xib1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xib1CollectionViewCell.m; sourceTree = "<group>"; };
 		2D86E2501CF54AA900F39D41 /* xib1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xib1CollectionViewCell.xib; sourceTree = "<group>"; };
+		2D86E2541CF694DE00F39D41 /* xib2CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xib2CollectionViewCell.h; sourceTree = "<group>"; };
+		2D86E2551CF694DE00F39D41 /* xib2CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xib2CollectionViewCell.m; sourceTree = "<group>"; };
+		2D86E2561CF694DE00F39D41 /* xib2CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xib2CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +308,9 @@
 				2D86E24E1CF54AA900F39D41 /* xib1CollectionViewCell.h */,
 				2D86E24F1CF54AA900F39D41 /* xib1CollectionViewCell.m */,
 				2D86E2501CF54AA900F39D41 /* xib1CollectionViewCell.xib */,
+				2D86E2541CF694DE00F39D41 /* xib2CollectionViewCell.h */,
+				2D86E2551CF694DE00F39D41 /* xib2CollectionViewCell.m */,
+				2D86E2561CF694DE00F39D41 /* xib2CollectionViewCell.xib */,
 			);
 			path = collection;
 			sourceTree = "<group>";
@@ -447,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D86E2581CF694DE00F39D41 /* xib2CollectionViewCell.xib in Resources */,
 				2D86E2451CF544F300F39D41 /* demo2TableViewCell.xib in Resources */,
 				2D86E2411CF544F300F39D41 /* xibCollectionViewCell.xib in Resources */,
 				2D86E2011CF3EFFB00F39D41 /* selectFunction.storyboard in Resources */,
@@ -503,6 +512,7 @@
 				2D86E2421CF544F300F39D41 /* demo1TableViewCell.m in Sources */,
 				2D13FE9D1CE962E8002D2A39 /* main.m in Sources */,
 				2D86E23F1CF544F300F39D41 /* demoCollectionViewCell.m in Sources */,
+				2D86E2571CF694DE00F39D41 /* xib2CollectionViewCell.m in Sources */,
 				2D86E24D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */,
 				2D86E2461CF544F300F39D41 /* demoTableViewCell.m in Sources */,
 				2D86E2511CF54AA900F39D41 /* xib1CollectionViewCell.m in Sources */,

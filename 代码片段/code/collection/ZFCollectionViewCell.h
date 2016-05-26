@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class ZFCollectionViewCellModel;
+#import "ZFCollectionViewCellModel.h"
 @interface ZFCollectionViewCell : UICollectionViewCell
 
 @property(nonatomic,retain)ZFCollectionViewCellModel* cellInfo;
