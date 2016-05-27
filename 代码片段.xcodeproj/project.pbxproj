@@ -27,26 +27,28 @@
 		2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1FC1CF3EEF500F39D41 /* ZFTableViewCellModel.m */; };
 		2D86E2011CF3EFFB00F39D41 /* selectFunction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2001CF3EFFB00F39D41 /* selectFunction.storyboard */; };
 		2D86E2041CF3F09300F39D41 /* FunctionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2031CF3F09300F39D41 /* FunctionTableViewController.m */; };
-		2D86E23E1CF544F300F39D41 /* CollectionViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2201CF544F300F39D41 /* CollectionViewControllerDemo.m */; };
-		2D86E23F1CF544F300F39D41 /* demoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2221CF544F300F39D41 /* demoCollectionViewCell.m */; };
-		2D86E2401CF544F300F39D41 /* xibCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2241CF544F300F39D41 /* xibCollectionViewCell.m */; };
-		2D86E2411CF544F300F39D41 /* xibCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2251CF544F300F39D41 /* xibCollectionViewCell.xib */; };
-		2D86E2421CF544F300F39D41 /* demo1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2281CF544F300F39D41 /* demo1TableViewCell.m */; };
-		2D86E2431CF544F300F39D41 /* demo1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2291CF544F300F39D41 /* demo1TableViewCell.xib */; };
-		2D86E2441CF544F300F39D41 /* demo2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E22B1CF544F300F39D41 /* demo2TableViewCell.m */; };
-		2D86E2451CF544F300F39D41 /* demo2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E22C1CF544F300F39D41 /* demo2TableViewCell.xib */; };
-		2D86E2461CF544F300F39D41 /* demoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E22E1CF544F300F39D41 /* demoTableViewCell.m */; };
-		2D86E2471CF544F300F39D41 /* TableViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2301CF544F300F39D41 /* TableViewControllerDemo.m */; };
-		2D86E2481CF544F300F39D41 /* ZFBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2331CF544F300F39D41 /* ZFBaseCollectionViewController.m */; };
-		2D86E2491CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2351CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m */; };
-		2D86E24A1CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2371CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m */; };
-		2D86E24B1CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2391CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m */; };
-		2D86E24C1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E23B1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m */; };
-		2D86E24D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E23D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */; };
-		2D86E2511CF54AA900F39D41 /* xib1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E24F1CF54AA900F39D41 /* xib1CollectionViewCell.m */; };
-		2D86E2521CF54AA900F39D41 /* xib1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2501CF54AA900F39D41 /* xib1CollectionViewCell.xib */; };
-		2D86E2571CF694DE00F39D41 /* xib2CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2551CF694DE00F39D41 /* xib2CollectionViewCell.m */; };
-		2D86E2581CF694DE00F39D41 /* xib2CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2561CF694DE00F39D41 /* xib2CollectionViewCell.xib */; };
+		2D86E2821CF6D67400F39D41 /* CollectionViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E25E1CF6D67400F39D41 /* CollectionViewControllerDemo.m */; };
+		2D86E2831CF6D67400F39D41 /* demoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2601CF6D67400F39D41 /* demoCollectionViewCell.m */; };
+		2D86E2841CF6D67400F39D41 /* xib1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2621CF6D67400F39D41 /* xib1CollectionViewCell.m */; };
+		2D86E2851CF6D67400F39D41 /* xib1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2631CF6D67400F39D41 /* xib1CollectionViewCell.xib */; };
+		2D86E2861CF6D67400F39D41 /* xib2CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2651CF6D67400F39D41 /* xib2CollectionViewCell.m */; };
+		2D86E2871CF6D67400F39D41 /* xib2CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2661CF6D67400F39D41 /* xib2CollectionViewCell.xib */; };
+		2D86E2881CF6D67400F39D41 /* xibCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2681CF6D67400F39D41 /* xibCollectionViewCell.m */; };
+		2D86E2891CF6D67400F39D41 /* xibCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2691CF6D67400F39D41 /* xibCollectionViewCell.xib */; };
+		2D86E28A1CF6D67400F39D41 /* demo1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E26C1CF6D67400F39D41 /* demo1TableViewCell.m */; };
+		2D86E28B1CF6D67400F39D41 /* demo1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E26D1CF6D67400F39D41 /* demo1TableViewCell.xib */; };
+		2D86E28C1CF6D67400F39D41 /* demo2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E26F1CF6D67400F39D41 /* demo2TableViewCell.m */; };
+		2D86E28D1CF6D67400F39D41 /* demo2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E2701CF6D67400F39D41 /* demo2TableViewCell.xib */; };
+		2D86E28E1CF6D67400F39D41 /* demoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2721CF6D67400F39D41 /* demoTableViewCell.m */; };
+		2D86E28F1CF6D67400F39D41 /* TableViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2741CF6D67400F39D41 /* TableViewControllerDemo.m */; };
+		2D86E2901CF6D67400F39D41 /* ZFBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2771CF6D67400F39D41 /* ZFBaseCollectionViewController.m */; };
+		2D86E2911CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2791CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m */; };
+		2D86E2921CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E27B1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m */; };
+		2D86E2931CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E27D1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m */; };
+		2D86E2941CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E27F1CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m */; };
+		2D86E2951CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2811CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */; };
+		2D86E2981CF6D78500F39D41 /* ZFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2971CF6D78500F39D41 /* ZFScrollView.m */; };
+		2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,41 +107,45 @@
 		2D86E2001CF3EFFB00F39D41 /* selectFunction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = selectFunction.storyboard; sourceTree = "<group>"; };
 		2D86E2021CF3F09300F39D41 /* FunctionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTableViewController.h; sourceTree = "<group>"; };
 		2D86E2031CF3F09300F39D41 /* FunctionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionTableViewController.m; sourceTree = "<group>"; };
-		2D86E21F1CF544F300F39D41 /* CollectionViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewControllerDemo.h; sourceTree = "<group>"; };
-		2D86E2201CF544F300F39D41 /* CollectionViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewControllerDemo.m; sourceTree = "<group>"; };
-		2D86E2211CF544F300F39D41 /* demoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoCollectionViewCell.h; sourceTree = "<group>"; };
-		2D86E2221CF544F300F39D41 /* demoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoCollectionViewCell.m; sourceTree = "<group>"; };
-		2D86E2231CF544F300F39D41 /* xibCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xibCollectionViewCell.h; sourceTree = "<group>"; };
-		2D86E2241CF544F300F39D41 /* xibCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xibCollectionViewCell.m; sourceTree = "<group>"; };
-		2D86E2251CF544F300F39D41 /* xibCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibCollectionViewCell.xib; sourceTree = "<group>"; };
-		2D86E2271CF544F300F39D41 /* demo1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo1TableViewCell.h; sourceTree = "<group>"; };
-		2D86E2281CF544F300F39D41 /* demo1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo1TableViewCell.m; sourceTree = "<group>"; };
-		2D86E2291CF544F300F39D41 /* demo1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demo1TableViewCell.xib; sourceTree = "<group>"; };
-		2D86E22A1CF544F300F39D41 /* demo2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo2TableViewCell.h; sourceTree = "<group>"; };
-		2D86E22B1CF544F300F39D41 /* demo2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo2TableViewCell.m; sourceTree = "<group>"; };
-		2D86E22C1CF544F300F39D41 /* demo2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demo2TableViewCell.xib; sourceTree = "<group>"; };
-		2D86E22D1CF544F300F39D41 /* demoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoTableViewCell.h; sourceTree = "<group>"; };
-		2D86E22E1CF544F300F39D41 /* demoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoTableViewCell.m; sourceTree = "<group>"; };
-		2D86E22F1CF544F300F39D41 /* TableViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerDemo.h; sourceTree = "<group>"; };
-		2D86E2301CF544F300F39D41 /* TableViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerDemo.m; sourceTree = "<group>"; };
-		2D86E2321CF544F300F39D41 /* ZFBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBaseCollectionViewController.h; sourceTree = "<group>"; };
-		2D86E2331CF544F300F39D41 /* ZFBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBaseCollectionViewController.m; sourceTree = "<group>"; };
-		2D86E2341CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayoutLineTypeViewController.h; sourceTree = "<group>"; };
-		2D86E2351CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayoutLineTypeViewController.m; sourceTree = "<group>"; };
-		2D86E2361CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayoutRotatePageTypeViewController.h; sourceTree = "<group>"; };
-		2D86E2371CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayoutRotatePageTypeViewController.m; sourceTree = "<group>"; };
-		2D86E2381CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayoutWaterfallTypeViewController.h; sourceTree = "<group>"; };
-		2D86E2391CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayoutWaterfallTypeViewController.m; sourceTree = "<group>"; };
-		2D86E23A1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewLayoutCircleTypeViewController.h; sourceTree = "<group>"; };
-		2D86E23B1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewLayoutCircleTypeViewController.m; sourceTree = "<group>"; };
-		2D86E23C1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewLayoutStackTypeViewController.h; sourceTree = "<group>"; };
-		2D86E23D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewLayoutStackTypeViewController.m; sourceTree = "<group>"; };
-		2D86E24E1CF54AA900F39D41 /* xib1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xib1CollectionViewCell.h; sourceTree = "<group>"; };
-		2D86E24F1CF54AA900F39D41 /* xib1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xib1CollectionViewCell.m; sourceTree = "<group>"; };
-		2D86E2501CF54AA900F39D41 /* xib1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xib1CollectionViewCell.xib; sourceTree = "<group>"; };
-		2D86E2541CF694DE00F39D41 /* xib2CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xib2CollectionViewCell.h; sourceTree = "<group>"; };
-		2D86E2551CF694DE00F39D41 /* xib2CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xib2CollectionViewCell.m; sourceTree = "<group>"; };
-		2D86E2561CF694DE00F39D41 /* xib2CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xib2CollectionViewCell.xib; sourceTree = "<group>"; };
+		2D86E25D1CF6D67400F39D41 /* CollectionViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewControllerDemo.h; sourceTree = "<group>"; };
+		2D86E25E1CF6D67400F39D41 /* CollectionViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewControllerDemo.m; sourceTree = "<group>"; };
+		2D86E25F1CF6D67400F39D41 /* demoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoCollectionViewCell.h; sourceTree = "<group>"; };
+		2D86E2601CF6D67400F39D41 /* demoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoCollectionViewCell.m; sourceTree = "<group>"; };
+		2D86E2611CF6D67400F39D41 /* xib1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xib1CollectionViewCell.h; sourceTree = "<group>"; };
+		2D86E2621CF6D67400F39D41 /* xib1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xib1CollectionViewCell.m; sourceTree = "<group>"; };
+		2D86E2631CF6D67400F39D41 /* xib1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xib1CollectionViewCell.xib; sourceTree = "<group>"; };
+		2D86E2641CF6D67400F39D41 /* xib2CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xib2CollectionViewCell.h; sourceTree = "<group>"; };
+		2D86E2651CF6D67400F39D41 /* xib2CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xib2CollectionViewCell.m; sourceTree = "<group>"; };
+		2D86E2661CF6D67400F39D41 /* xib2CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xib2CollectionViewCell.xib; sourceTree = "<group>"; };
+		2D86E2671CF6D67400F39D41 /* xibCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xibCollectionViewCell.h; sourceTree = "<group>"; };
+		2D86E2681CF6D67400F39D41 /* xibCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xibCollectionViewCell.m; sourceTree = "<group>"; };
+		2D86E2691CF6D67400F39D41 /* xibCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibCollectionViewCell.xib; sourceTree = "<group>"; };
+		2D86E26B1CF6D67400F39D41 /* demo1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo1TableViewCell.h; sourceTree = "<group>"; };
+		2D86E26C1CF6D67400F39D41 /* demo1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo1TableViewCell.m; sourceTree = "<group>"; };
+		2D86E26D1CF6D67400F39D41 /* demo1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demo1TableViewCell.xib; sourceTree = "<group>"; };
+		2D86E26E1CF6D67400F39D41 /* demo2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo2TableViewCell.h; sourceTree = "<group>"; };
+		2D86E26F1CF6D67400F39D41 /* demo2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo2TableViewCell.m; sourceTree = "<group>"; };
+		2D86E2701CF6D67400F39D41 /* demo2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demo2TableViewCell.xib; sourceTree = "<group>"; };
+		2D86E2711CF6D67400F39D41 /* demoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoTableViewCell.h; sourceTree = "<group>"; };
+		2D86E2721CF6D67400F39D41 /* demoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoTableViewCell.m; sourceTree = "<group>"; };
+		2D86E2731CF6D67400F39D41 /* TableViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerDemo.h; sourceTree = "<group>"; };
+		2D86E2741CF6D67400F39D41 /* TableViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerDemo.m; sourceTree = "<group>"; };
+		2D86E2761CF6D67400F39D41 /* ZFBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBaseCollectionViewController.h; sourceTree = "<group>"; };
+		2D86E2771CF6D67400F39D41 /* ZFBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBaseCollectionViewController.m; sourceTree = "<group>"; };
+		2D86E2781CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayoutLineTypeViewController.h; sourceTree = "<group>"; };
+		2D86E2791CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayoutLineTypeViewController.m; sourceTree = "<group>"; };
+		2D86E27A1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayoutRotatePageTypeViewController.h; sourceTree = "<group>"; };
+		2D86E27B1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayoutRotatePageTypeViewController.m; sourceTree = "<group>"; };
+		2D86E27C1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayoutWaterfallTypeViewController.h; sourceTree = "<group>"; };
+		2D86E27D1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayoutWaterfallTypeViewController.m; sourceTree = "<group>"; };
+		2D86E27E1CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewLayoutCircleTypeViewController.h; sourceTree = "<group>"; };
+		2D86E27F1CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewLayoutCircleTypeViewController.m; sourceTree = "<group>"; };
+		2D86E2801CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewLayoutStackTypeViewController.h; sourceTree = "<group>"; };
+		2D86E2811CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewLayoutStackTypeViewController.m; sourceTree = "<group>"; };
+		2D86E2961CF6D78500F39D41 /* ZFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFScrollView.h; sourceTree = "<group>"; };
+		2D86E2971CF6D78500F39D41 /* ZFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFScrollView.m; sourceTree = "<group>"; };
+		2D86E29A1CF6D82400F39D41 /* ScrollViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewControllerDemo.h; sourceTree = "<group>"; };
+		2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewControllerDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,7 @@
 		2D13FE8F1CE962E8002D2A39 = {
 			isa = PBXGroup;
 			children = (
+				2D86E25B1CF6D67400F39D41 /* demo */,
 				2D13FED21CE9635F002D2A39 /* code */,
 				2D13FE9A1CE962E8002D2A39 /* 代码片段 */,
 				2D13FEB71CE962E8002D2A39 /* 代码片段Tests */,
@@ -247,7 +254,7 @@
 		2D13FED21CE9635F002D2A39 /* code */ = {
 			isa = PBXGroup;
 			children = (
-				2D86E21D1CF544F300F39D41 /* demo */,
+				2D86E25A1CF6D65700F39D41 /* scrollView */,
 				2D86E1D81CF2D95D00F39D41 /* tableview */,
 				2D13FED31CE9639D002D2A39 /* collection */,
 			);
@@ -285,71 +292,90 @@
 			path = tableview;
 			sourceTree = "<group>";
 		};
-		2D86E21D1CF544F300F39D41 /* demo */ = {
+		2D86E25A1CF6D65700F39D41 /* scrollView */ = {
 			isa = PBXGroup;
 			children = (
-				2D86E21E1CF544F300F39D41 /* collection */,
-				2D86E2261CF544F300F39D41 /* tableview */,
+				2D86E2961CF6D78500F39D41 /* ZFScrollView.h */,
+				2D86E2971CF6D78500F39D41 /* ZFScrollView.m */,
 			);
-			path = demo;
+			path = scrollView;
 			sourceTree = "<group>";
 		};
-		2D86E21E1CF544F300F39D41 /* collection */ = {
+		2D86E25B1CF6D67400F39D41 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				2D86E2311CF544F300F39D41 /* viewController */,
-				2D86E21F1CF544F300F39D41 /* CollectionViewControllerDemo.h */,
-				2D86E2201CF544F300F39D41 /* CollectionViewControllerDemo.m */,
-				2D86E2211CF544F300F39D41 /* demoCollectionViewCell.h */,
-				2D86E2221CF544F300F39D41 /* demoCollectionViewCell.m */,
-				2D86E2231CF544F300F39D41 /* xibCollectionViewCell.h */,
-				2D86E2241CF544F300F39D41 /* xibCollectionViewCell.m */,
-				2D86E2251CF544F300F39D41 /* xibCollectionViewCell.xib */,
-				2D86E24E1CF54AA900F39D41 /* xib1CollectionViewCell.h */,
-				2D86E24F1CF54AA900F39D41 /* xib1CollectionViewCell.m */,
-				2D86E2501CF54AA900F39D41 /* xib1CollectionViewCell.xib */,
-				2D86E2541CF694DE00F39D41 /* xib2CollectionViewCell.h */,
-				2D86E2551CF694DE00F39D41 /* xib2CollectionViewCell.m */,
-				2D86E2561CF694DE00F39D41 /* xib2CollectionViewCell.xib */,
+				2D86E2991CF6D7CB00F39D41 /* scrollView */,
+				2D86E25C1CF6D67400F39D41 /* collection */,
+				2D86E26A1CF6D67400F39D41 /* tableview */,
+				2D86E2751CF6D67400F39D41 /* viewController */,
+			);
+			name = demo;
+			path = "代码片段/demo";
+			sourceTree = "<group>";
+		};
+		2D86E25C1CF6D67400F39D41 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				2D86E25D1CF6D67400F39D41 /* CollectionViewControllerDemo.h */,
+				2D86E25E1CF6D67400F39D41 /* CollectionViewControllerDemo.m */,
+				2D86E25F1CF6D67400F39D41 /* demoCollectionViewCell.h */,
+				2D86E2601CF6D67400F39D41 /* demoCollectionViewCell.m */,
+				2D86E2611CF6D67400F39D41 /* xib1CollectionViewCell.h */,
+				2D86E2621CF6D67400F39D41 /* xib1CollectionViewCell.m */,
+				2D86E2631CF6D67400F39D41 /* xib1CollectionViewCell.xib */,
+				2D86E2641CF6D67400F39D41 /* xib2CollectionViewCell.h */,
+				2D86E2651CF6D67400F39D41 /* xib2CollectionViewCell.m */,
+				2D86E2661CF6D67400F39D41 /* xib2CollectionViewCell.xib */,
+				2D86E2671CF6D67400F39D41 /* xibCollectionViewCell.h */,
+				2D86E2681CF6D67400F39D41 /* xibCollectionViewCell.m */,
+				2D86E2691CF6D67400F39D41 /* xibCollectionViewCell.xib */,
 			);
 			path = collection;
 			sourceTree = "<group>";
 		};
-		2D86E2261CF544F300F39D41 /* tableview */ = {
+		2D86E26A1CF6D67400F39D41 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
-				2D86E2271CF544F300F39D41 /* demo1TableViewCell.h */,
-				2D86E2281CF544F300F39D41 /* demo1TableViewCell.m */,
-				2D86E2291CF544F300F39D41 /* demo1TableViewCell.xib */,
-				2D86E22A1CF544F300F39D41 /* demo2TableViewCell.h */,
-				2D86E22B1CF544F300F39D41 /* demo2TableViewCell.m */,
-				2D86E22C1CF544F300F39D41 /* demo2TableViewCell.xib */,
-				2D86E22D1CF544F300F39D41 /* demoTableViewCell.h */,
-				2D86E22E1CF544F300F39D41 /* demoTableViewCell.m */,
-				2D86E22F1CF544F300F39D41 /* TableViewControllerDemo.h */,
-				2D86E2301CF544F300F39D41 /* TableViewControllerDemo.m */,
+				2D86E26B1CF6D67400F39D41 /* demo1TableViewCell.h */,
+				2D86E26C1CF6D67400F39D41 /* demo1TableViewCell.m */,
+				2D86E26D1CF6D67400F39D41 /* demo1TableViewCell.xib */,
+				2D86E26E1CF6D67400F39D41 /* demo2TableViewCell.h */,
+				2D86E26F1CF6D67400F39D41 /* demo2TableViewCell.m */,
+				2D86E2701CF6D67400F39D41 /* demo2TableViewCell.xib */,
+				2D86E2711CF6D67400F39D41 /* demoTableViewCell.h */,
+				2D86E2721CF6D67400F39D41 /* demoTableViewCell.m */,
+				2D86E2731CF6D67400F39D41 /* TableViewControllerDemo.h */,
+				2D86E2741CF6D67400F39D41 /* TableViewControllerDemo.m */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
 		};
-		2D86E2311CF544F300F39D41 /* viewController */ = {
+		2D86E2751CF6D67400F39D41 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				2D86E2321CF544F300F39D41 /* ZFBaseCollectionViewController.h */,
-				2D86E2331CF544F300F39D41 /* ZFBaseCollectionViewController.m */,
-				2D86E2341CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.h */,
-				2D86E2351CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m */,
-				2D86E2361CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.h */,
-				2D86E2371CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m */,
-				2D86E2381CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.h */,
-				2D86E2391CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m */,
-				2D86E23A1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.h */,
-				2D86E23B1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m */,
-				2D86E23C1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.h */,
-				2D86E23D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */,
+				2D86E2761CF6D67400F39D41 /* ZFBaseCollectionViewController.h */,
+				2D86E2771CF6D67400F39D41 /* ZFBaseCollectionViewController.m */,
+				2D86E2781CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.h */,
+				2D86E2791CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m */,
+				2D86E27A1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.h */,
+				2D86E27B1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m */,
+				2D86E27C1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.h */,
+				2D86E27D1CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m */,
+				2D86E27E1CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.h */,
+				2D86E27F1CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m */,
+				2D86E2801CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.h */,
+				2D86E2811CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */,
 			);
-			name = viewController;
-			path = ../viewController;
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		2D86E2991CF6D7CB00F39D41 /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2D86E29A1CF6D82400F39D41 /* ScrollViewControllerDemo.h */,
+				2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */,
+			);
+			path = scrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,14 +481,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D86E2581CF694DE00F39D41 /* xib2CollectionViewCell.xib in Resources */,
-				2D86E2451CF544F300F39D41 /* demo2TableViewCell.xib in Resources */,
-				2D86E2411CF544F300F39D41 /* xibCollectionViewCell.xib in Resources */,
+				2D86E28B1CF6D67400F39D41 /* demo1TableViewCell.xib in Resources */,
+				2D86E2891CF6D67400F39D41 /* xibCollectionViewCell.xib in Resources */,
+				2D86E2851CF6D67400F39D41 /* xib1CollectionViewCell.xib in Resources */,
 				2D86E2011CF3EFFB00F39D41 /* selectFunction.storyboard in Resources */,
 				2D13FEAE1CE962E8002D2A39 /* LaunchScreen.storyboard in Resources */,
+				2D86E28D1CF6D67400F39D41 /* demo2TableViewCell.xib in Resources */,
+				2D86E2871CF6D67400F39D41 /* xib2CollectionViewCell.xib in Resources */,
 				2D13FEAB1CE962E8002D2A39 /* Assets.xcassets in Resources */,
-				2D86E2431CF544F300F39D41 /* demo1TableViewCell.xib in Resources */,
-				2D86E2521CF54AA900F39D41 /* xib1CollectionViewCell.xib in Resources */,
 				2D13FEA61CE962E8002D2A39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,35 +514,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D86E2951CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */,
+				2D86E28A1CF6D67400F39D41 /* demo1TableViewCell.m in Sources */,
 				2D13FEDF1CE987A8002D2A39 /* ZFCollectionViewLayout.m in Sources */,
-				2D86E24C1CF544F300F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m in Sources */,
+				2D86E2901CF6D67400F39D41 /* ZFBaseCollectionViewController.m in Sources */,
 				2D13FEA31CE962E8002D2A39 /* ViewController.m in Sources */,
-				2D86E24B1CF544F300F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m in Sources */,
+				2D86E28F1CF6D67400F39D41 /* TableViewControllerDemo.m in Sources */,
 				2D86E1FE1CF3EEF500F39D41 /* ZFTableViewCell.m in Sources */,
 				2D13FEE51CE9B5F2002D2A39 /* ZFCollectionViewFlowLayout.m in Sources */,
 				2D86E2041CF3F09300F39D41 /* FunctionTableViewController.m in Sources */,
+				2D86E2911CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m in Sources */,
+				2D86E2841CF6D67400F39D41 /* xib1CollectionViewCell.m in Sources */,
+				2D86E2981CF6D78500F39D41 /* ZFScrollView.m in Sources */,
 				2D853C071CEC6802000D406B /* selectTableViewController.m in Sources */,
+				2D86E2881CF6D67400F39D41 /* xibCollectionViewCell.m in Sources */,
 				2D13FED61CE963C0002D2A39 /* ZFCollectionViewCell.m in Sources */,
+				2D86E28E1CF6D67400F39D41 /* demoTableViewCell.m in Sources */,
+				2D86E2931CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m in Sources */,
 				2D13FEDC1CE97634002D2A39 /* ZFCollectionView.m in Sources */,
-				2D86E2481CF544F300F39D41 /* ZFBaseCollectionViewController.m in Sources */,
 				2D13FEA91CE962E8002D2A39 /* ____.xcdatamodeld in Sources */,
+				2D86E28C1CF6D67400F39D41 /* demo2TableViewCell.m in Sources */,
+				2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */,
 				2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */,
 				2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */,
+				2D86E2921CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m in Sources */,
 				2D13FEA01CE962E8002D2A39 /* AppDelegate.m in Sources */,
-				2D86E24A1CF544F300F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m in Sources */,
-				2D86E2441CF544F300F39D41 /* demo2TableViewCell.m in Sources */,
-				2D86E23E1CF544F300F39D41 /* CollectionViewControllerDemo.m in Sources */,
+				2D86E2821CF6D67400F39D41 /* CollectionViewControllerDemo.m in Sources */,
+				2D86E2941CF6D67400F39D41 /* ZFCollectionViewLayoutCircleTypeViewController.m in Sources */,
 				2D13FEE21CE99521002D2A39 /* ZFCollectionViewCellModel.m in Sources */,
-				2D86E2471CF544F300F39D41 /* TableViewControllerDemo.m in Sources */,
-				2D86E2491CF544F300F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m in Sources */,
-				2D86E2421CF544F300F39D41 /* demo1TableViewCell.m in Sources */,
 				2D13FE9D1CE962E8002D2A39 /* main.m in Sources */,
-				2D86E23F1CF544F300F39D41 /* demoCollectionViewCell.m in Sources */,
-				2D86E2571CF694DE00F39D41 /* xib2CollectionViewCell.m in Sources */,
-				2D86E24D1CF544F300F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */,
-				2D86E2461CF544F300F39D41 /* demoTableViewCell.m in Sources */,
-				2D86E2511CF54AA900F39D41 /* xib1CollectionViewCell.m in Sources */,
-				2D86E2401CF544F300F39D41 /* xibCollectionViewCell.m in Sources */,
+				2D86E2831CF6D67400F39D41 /* demoCollectionViewCell.m in Sources */,
+				2D86E2861CF6D67400F39D41 /* xib2CollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

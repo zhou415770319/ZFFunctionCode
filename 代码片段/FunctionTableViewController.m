@@ -40,7 +40,7 @@
 -(NSMutableArray *)infos{
     
     if (_infos == nil) {
-        NSMutableArray *arr =[NSMutableArray arrayWithObjects:@"TableViewController",@"CollectionViewController",@"ScrollView",@"Navigation", nil];
+        NSMutableArray *arr =[NSMutableArray arrayWithObjects:@"TableViewController",@"CollectionViewController",@"ScrollViewController",@"Navigation", nil];
         NSMutableArray *arr1 =[NSMutableArray arrayWithCapacity:1];
         
         for (int i =0; i < arr.count; i++) {
