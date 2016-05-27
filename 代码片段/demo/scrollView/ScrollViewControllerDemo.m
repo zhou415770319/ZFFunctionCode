@@ -41,7 +41,7 @@
     
     scrollV.infos =self.infos;
     scrollV.backgroundColor =[UIColor whiteColor];
-    scrollV.isAddTimer =YES;
+//    scrollV.isAddTimer =YES;
     //默认2.0秒
     //    scrollV.animationDuration =5;
     [self.view addSubview:scrollV];

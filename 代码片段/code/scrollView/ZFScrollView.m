@@ -32,7 +32,7 @@
     
     if (!_pageControl) {
         _pageControl =[[UIPageControl alloc]initWithFrame:CGRectMake((self.frame.size.width-200)/2, self.frame.size.height-30-spaceY, 200, 30)];
-//        _pageControl.backgroundColor =[UIColor brownColor];
+        //        _pageControl.backgroundColor =[UIColor brownColor];
         [self addSubview:_pageControl];
     }
     return _pageControl;
@@ -47,31 +47,38 @@
     return _isAddTimer;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        
-        _scrollV = [[UIScrollView alloc]initWithFrame:self.bounds];
-//        _scrollV.backgroundColor =[UIColor redColor];
-        [self addSubview:_scrollV];
-        self.scrollV.delegate =self;
-        //4.隐藏水平滚动条
-        self.scrollV.showsHorizontalScrollIndicator = NO;
-        
-        //5.分页原理：根据scrollView的frame宽度来分页
-        self.scrollV.pagingEnabled = YES;
-        
-        
-            }
-    return self;
-}
-
+//- (instancetype)initWithFrame:(CGRect)frame
+//{
+//    self = [super initWithFrame:frame];
+//    if (self) {
+//        
+//        
+//        
+//    }
+//    return self;
+//}
+//
 -(void)setInfos:(NSMutableArray *)infos{
     
     if (_infos!= infos) {
         _infos =infos;
     }
+    
+}
+
+
+-(void)drawRect:(CGRect)rect{
+    [super drawRect:rect];
+    
+    _scrollV = [[UIScrollView alloc]initWithFrame:self.bounds];
+    //        _scrollV.backgroundColor =[UIColor redColor];
+    [self addSubview:_scrollV];
+    self.scrollV.delegate =self;
+    //4.隐藏水平滚动条
+    self.scrollV.showsHorizontalScrollIndicator = NO;
+    
+    //5.分页原理：根据scrollView的frame宽度来分页
+    self.scrollV.pagingEnabled = YES;
     
     for (int i =0; i< self.infos.count; i++) {
         UIImage * img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",self.infos[i]]];
@@ -85,13 +92,7 @@
     //6.设置pageControl的总页数
     self.pageControl.numberOfPages = self.infos.count;
     
-    
-}
 
-
--(void)drawRect:(CGRect)rect{
-    [super drawRect:rect];
-    
     //8.添加一个定时器
     if (_isAddTimer) {
         [self addTimer];
@@ -99,7 +100,7 @@
         [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
         
     }
-
+    
     
 }
 

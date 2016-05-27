@@ -32,12 +32,13 @@
             
             ZFTableViewCellModel *model = [[ZFTableViewCellModel alloc] init];
             model.title = arr[i];
+            
             model.PopToViewController = [NSString stringWithFormat:@"%@ViewController",arr[i]];
             //            if (i != 1) {
             //                model.cellName =@"demoTableViewCell";
             //            }else{
             
-            model.xibCellName =@"demo2TableViewCell";
+//            model.xibCellName =@"demo2TableViewCell";
             
             //            }
             
@@ -58,13 +59,20 @@
     tab.cellInfos = self.infos;
     tab.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:tab];
-    //    self.tableView = tab;
+//     self.tableView = tab;
     self.tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
-    
-
 
 }
 
+
+//-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    UITableViewCell *cell =nil;
+//    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+//    ZFTableViewCellModel *model =self.infos[indexPath.row];
+//    cell.textLabel.text =model.title;
+//    
+//    return cell;
+//}
 
 
 @end
