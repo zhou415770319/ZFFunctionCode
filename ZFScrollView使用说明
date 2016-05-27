@@ -1,0 +1,12 @@
+ZFScrollView使用
+
+    ZFScrollView *scrollV = [[ZFScrollView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
+    //默认2.0秒
+    //    scrollV.animationDuration =5;
+    scrollV.infos =self.infos;
+    
+    [self.view addSubview:scrollV];
+
+
+//UIViewController的属性propertyautomaticallyAdjustsScrollViewInsets默认增加了填充，若要照自己设置的全屏滚动修改
+    self.automaticallyAdjustsScrollViewInsets =NO;
