@@ -49,6 +49,7 @@
 		2D86E2951CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2811CF6D67400F39D41 /* ZFCollectionViewLayoutStackTypeViewController.m */; };
 		2D86E2981CF6D78500F39D41 /* ZFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2971CF6D78500F39D41 /* ZFScrollView.m */; };
 		2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */; };
+		2D86E29F1CF82DC800F39D41 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E29E1CF82DC800F39D41 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 		2D86E2971CF6D78500F39D41 /* ZFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFScrollView.m; sourceTree = "<group>"; };
 		2D86E29A1CF6D82400F39D41 /* ScrollViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewControllerDemo.h; sourceTree = "<group>"; };
 		2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewControllerDemo.m; sourceTree = "<group>"; };
+		2D86E29E1CF82DC800F39D41 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +306,7 @@
 		2D86E25B1CF6D67400F39D41 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2D86E29D1CF82D8C00F39D41 /* View */,
 				2D86E2991CF6D7CB00F39D41 /* scrollView */,
 				2D86E25C1CF6D67400F39D41 /* collection */,
 				2D86E26A1CF6D67400F39D41 /* tableview */,
@@ -376,6 +379,14 @@
 				2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */,
 			);
 			path = scrollView;
+			sourceTree = "<group>";
+		};
+		2D86E29D1CF82D8C00F39D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D86E29E1CF82DC800F39D41 /* View.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,6 +498,7 @@
 				2D86E2011CF3EFFB00F39D41 /* selectFunction.storyboard in Resources */,
 				2D13FEAE1CE962E8002D2A39 /* LaunchScreen.storyboard in Resources */,
 				2D86E28D1CF6D67400F39D41 /* demo2TableViewCell.xib in Resources */,
+				2D86E29F1CF82DC800F39D41 /* View.xib in Resources */,
 				2D86E2871CF6D67400F39D41 /* xib2CollectionViewCell.xib in Resources */,
 				2D13FEAB1CE962E8002D2A39 /* Assets.xcassets in Resources */,
 				2D13FEA61CE962E8002D2A39 /* Main.storyboard in Resources */,
