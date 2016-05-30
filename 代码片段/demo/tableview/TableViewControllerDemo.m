@@ -62,6 +62,8 @@
 //     self.tableView = tab;
     self.tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
 
+    
+    
 }
 
 

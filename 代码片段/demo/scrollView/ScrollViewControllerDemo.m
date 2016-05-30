@@ -8,7 +8,8 @@
 
 #import "ScrollViewControllerDemo.h"
 #import "ZFScrollView.h"
-@interface ScrollViewControllerDemo ()
+#import "ZFNavigationViewController.h"
+@interface ScrollViewControllerDemo ()<ZFScrollViewDelegate>
 
 @property (nonatomic,retain)ZFScrollView *scrollV;
 
@@ -34,6 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.view.backgroundColor =[UIColor whiteColor];
 
     
@@ -41,18 +43,24 @@
     
     scrollV.infos =self.infos;
     scrollV.backgroundColor =[UIColor whiteColor];
-//    scrollV.isAddTimer =YES;
+    scrollV.isAddTimer =YES;
     //默认2.0秒
     //    scrollV.animationDuration =5;
+    scrollV.delegate = self;
+    scrollV.isAddButton = YES;
     [self.view addSubview:scrollV];
     
     
     //UIViewController的属性propertyautomaticallyAdjustsScrollViewInsets默认增加了填充，若要照自己设置的全屏滚动修改
     self.automaticallyAdjustsScrollViewInsets =NO;
     
-
     
     // Do any additional setup after loading the view.
+}
+
+
+-(void)clickNextBtn{
+    NSLog(@"clickNextBtn");
 }
 
 - (void)didReceiveMemoryWarning {

@@ -50,6 +50,8 @@
 		2D86E2981CF6D78500F39D41 /* ZFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2971CF6D78500F39D41 /* ZFScrollView.m */; };
 		2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */; };
 		2D86E29F1CF82DC800F39D41 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E29E1CF82DC800F39D41 /* View.xib */; };
+		2D86E2A41CF83F1400F39D41 /* NavigationViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2A31CF83F1400F39D41 /* NavigationViewControllerDemo.m */; };
+		2DD826531CFBCBEA00303D48 /* ZFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD826521CFBCBEA00303D48 /* ZFNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +150,10 @@
 		2D86E29A1CF6D82400F39D41 /* ScrollViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewControllerDemo.h; sourceTree = "<group>"; };
 		2D86E29B1CF6D82400F39D41 /* ScrollViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewControllerDemo.m; sourceTree = "<group>"; };
 		2D86E29E1CF82DC800F39D41 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		2D86E2A21CF83F1400F39D41 /* NavigationViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewControllerDemo.h; sourceTree = "<group>"; };
+		2D86E2A31CF83F1400F39D41 /* NavigationViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewControllerDemo.m; sourceTree = "<group>"; };
+		2DD826511CFBCBEA00303D48 /* ZFNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNavigationViewController.h; sourceTree = "<group>"; };
+		2DD826521CFBCBEA00303D48 /* ZFNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +262,7 @@
 		2D13FED21CE9635F002D2A39 /* code */ = {
 			isa = PBXGroup;
 			children = (
+				2D86E2A01CF8374300F39D41 /* Navigation */,
 				2D86E25A1CF6D65700F39D41 /* scrollView */,
 				2D86E1D81CF2D95D00F39D41 /* tableview */,
 				2D13FED31CE9639D002D2A39 /* collection */,
@@ -306,6 +313,7 @@
 		2D86E25B1CF6D67400F39D41 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2D86E2A11CF83EBA00F39D41 /* Navigation */,
 				2D86E29D1CF82D8C00F39D41 /* View */,
 				2D86E2991CF6D7CB00F39D41 /* scrollView */,
 				2D86E25C1CF6D67400F39D41 /* collection */,
@@ -387,6 +395,24 @@
 				2D86E29E1CF82DC800F39D41 /* View.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2D86E2A01CF8374300F39D41 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2DD826511CFBCBEA00303D48 /* ZFNavigationViewController.h */,
+				2DD826521CFBCBEA00303D48 /* ZFNavigationViewController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2D86E2A11CF83EBA00F39D41 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2D86E2A21CF83F1400F39D41 /* NavigationViewControllerDemo.h */,
+				2D86E2A31CF83F1400F39D41 /* NavigationViewControllerDemo.m */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,6 +565,7 @@
 				2D86E2841CF6D67400F39D41 /* xib1CollectionViewCell.m in Sources */,
 				2D86E2981CF6D78500F39D41 /* ZFScrollView.m in Sources */,
 				2D853C071CEC6802000D406B /* selectTableViewController.m in Sources */,
+				2D86E2A41CF83F1400F39D41 /* NavigationViewControllerDemo.m in Sources */,
 				2D86E2881CF6D67400F39D41 /* xibCollectionViewCell.m in Sources */,
 				2D13FED61CE963C0002D2A39 /* ZFCollectionViewCell.m in Sources */,
 				2D86E28E1CF6D67400F39D41 /* demoTableViewCell.m in Sources */,
@@ -546,6 +573,7 @@
 				2D13FEDC1CE97634002D2A39 /* ZFCollectionView.m in Sources */,
 				2D13FEA91CE962E8002D2A39 /* ____.xcdatamodeld in Sources */,
 				2D86E28C1CF6D67400F39D41 /* demo2TableViewCell.m in Sources */,
+				2DD826531CFBCBEA00303D48 /* ZFNavigationViewController.m in Sources */,
 				2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */,
 				2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */,
 				2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */,

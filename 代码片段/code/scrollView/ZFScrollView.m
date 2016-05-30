@@ -21,8 +21,8 @@
 
 @end
 
-#define spaceX 10
-#define spaceY 10
+#define spaceX 0
+#define spaceY 0
 
 @implementation ZFScrollView
 
@@ -47,13 +47,21 @@
     return _isAddTimer;
 }
 
+-(bool)isAddButton{
+    if (!_isAddButton) {
+        _isAddButton = NO;
+    }
+    return _isAddButton;
+    
+}
+
 //- (instancetype)initWithFrame:(CGRect)frame
 //{
 //    self = [super initWithFrame:frame];
 //    if (self) {
-//        
-//        
-//        
+//
+//
+//
 //    }
 //    return self;
 //}
@@ -92,7 +100,7 @@
     //6.设置pageControl的总页数
     self.pageControl.numberOfPages = self.infos.count;
     
-
+    
     //8.添加一个定时器
     if (_isAddTimer) {
         [self addTimer];
@@ -101,6 +109,32 @@
         
     }
     
+    //    if (_isAddButton) {
+    //        [self addNextButton];
+    //    }
+}
+//添加nextButton按钮
+-(void)addNextButton{
+    _pageControl.hidden = YES;
+    [self removeTimer];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake((self.frame.size.width-200)/2, self.frame.size.height-30-spaceY, 200, 30);
+    [btn setTitle:@"下一步" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(nextBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateHighlighted];
+    [btn setBackgroundColor:[UIColor whiteColor]];
+    btn.layer.cornerRadius = 2.0;
+    btn.layer.borderWidth = 0.5;
+    btn.layer.borderColor = [UIColor darkGrayColor].CGColor;
+    btn.clipsToBounds = YES;
+    [self addSubview:btn];
+    
+}
+//点击下一步按钮
+-(void)nextBtnClick:(UIButton *)btn{
+    
+    [self.delegate clickNextBtn];
     
 }
 
@@ -122,6 +156,7 @@
 {
     //1.获取当前的page值
     long int page = 0;
+    
     if (self.pageControl.currentPage == self.infos.count - 1) {
         page = 0;
     }else{
@@ -146,6 +181,12 @@
     int page = (scrollView.contentOffset.x + scrollW * 0.5) / scrollW;
     self.pageControl.currentPage = page;
     
+    //添加nextButton按钮
+    if (self.isAddButton == YES) {
+        if (self.pageControl.currentPage == self.infos.count-1 ) {
+            [self addNextButton];
+        }
+    }
     
 }
 
@@ -165,8 +206,6 @@
         [self addTimer];
     }
 }
-
-
 
 
 
