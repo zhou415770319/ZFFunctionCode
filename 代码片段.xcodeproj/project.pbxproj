@@ -52,6 +52,18 @@
 		2D86E29F1CF82DC800F39D41 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D86E29E1CF82DC800F39D41 /* View.xib */; };
 		2D86E2A41CF83F1400F39D41 /* NavigationViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E2A31CF83F1400F39D41 /* NavigationViewControllerDemo.m */; };
 		2DD826531CFBCBEA00303D48 /* ZFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD826521CFBCBEA00303D48 /* ZFNavigationViewController.m */; };
+		2DD8265D1CFC1DD300303D48 /* ZFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8265C1CFC1DD300303D48 /* ZFTabBar.m */; };
+		2DD826641CFC1E4C00303D48 /* TabBarViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD826631CFC1E4C00303D48 /* TabBarViewControllerDemo.m */; };
+		2DD826851CFC3F1C00303D48 /* btn_release@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8267B1CFC3F1C00303D48 /* btn_release@2x.png */; };
+		2DD826861CFC3F1C00303D48 /* btn_release@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8267C1CFC3F1C00303D48 /* btn_release@3x.png */; };
+		2DD826871CFC3F1C00303D48 /* tab_buddy_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8267D1CFC3F1C00303D48 /* tab_buddy_nor@2x.png */; };
+		2DD826881CFC3F1C00303D48 /* tab_buddy_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8267E1CFC3F1C00303D48 /* tab_buddy_press@2x.png */; };
+		2DD826891CFC3F1C00303D48 /* tab_me_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8267F1CFC3F1C00303D48 /* tab_me_nor@2x.png */; };
+		2DD8268A1CFC3F1C00303D48 /* tab_me_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD826801CFC3F1C00303D48 /* tab_me_press@2x.png */; };
+		2DD8268B1CFC3F1C00303D48 /* tab_qworld_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD826811CFC3F1C00303D48 /* tab_qworld_nor@2x.png */; };
+		2DD8268C1CFC3F1C00303D48 /* tab_qworld_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD826821CFC3F1C00303D48 /* tab_qworld_press@2x.png */; };
+		2DD8268D1CFC3F1C00303D48 /* tab_recent_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD826831CFC3F1C00303D48 /* tab_recent_nor@2x.png */; };
+		2DD8268E1CFC3F1C00303D48 /* tab_recent_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD826841CFC3F1C00303D48 /* tab_recent_press@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +166,20 @@
 		2D86E2A31CF83F1400F39D41 /* NavigationViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewControllerDemo.m; sourceTree = "<group>"; };
 		2DD826511CFBCBEA00303D48 /* ZFNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNavigationViewController.h; sourceTree = "<group>"; };
 		2DD826521CFBCBEA00303D48 /* ZFNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFNavigationViewController.m; sourceTree = "<group>"; };
+		2DD8265B1CFC1DD300303D48 /* ZFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabBar.h; sourceTree = "<group>"; };
+		2DD8265C1CFC1DD300303D48 /* ZFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabBar.m; sourceTree = "<group>"; };
+		2DD826621CFC1E4C00303D48 /* TabBarViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewControllerDemo.h; sourceTree = "<group>"; };
+		2DD826631CFC1E4C00303D48 /* TabBarViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewControllerDemo.m; sourceTree = "<group>"; };
+		2DD8267B1CFC3F1C00303D48 /* btn_release@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_release@2x.png"; sourceTree = "<group>"; };
+		2DD8267C1CFC3F1C00303D48 /* btn_release@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_release@3x.png"; sourceTree = "<group>"; };
+		2DD8267D1CFC3F1C00303D48 /* tab_buddy_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_buddy_nor@2x.png"; sourceTree = "<group>"; };
+		2DD8267E1CFC3F1C00303D48 /* tab_buddy_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_buddy_press@2x.png"; sourceTree = "<group>"; };
+		2DD8267F1CFC3F1C00303D48 /* tab_me_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_me_nor@2x.png"; sourceTree = "<group>"; };
+		2DD826801CFC3F1C00303D48 /* tab_me_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_me_press@2x.png"; sourceTree = "<group>"; };
+		2DD826811CFC3F1C00303D48 /* tab_qworld_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_qworld_nor@2x.png"; sourceTree = "<group>"; };
+		2DD826821CFC3F1C00303D48 /* tab_qworld_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_qworld_press@2x.png"; sourceTree = "<group>"; };
+		2DD826831CFC3F1C00303D48 /* tab_recent_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_recent_nor@2x.png"; sourceTree = "<group>"; };
+		2DD826841CFC3F1C00303D48 /* tab_recent_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_recent_press@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +281,7 @@
 		2D13FED11CE96353002D2A39 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				2DD8267A1CFC3F1C00303D48 /* images */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -262,6 +289,7 @@
 		2D13FED21CE9635F002D2A39 /* code */ = {
 			isa = PBXGroup;
 			children = (
+				2DD8265A1CFC1D9600303D48 /* TabBar */,
 				2D86E2A01CF8374300F39D41 /* Navigation */,
 				2D86E25A1CF6D65700F39D41 /* scrollView */,
 				2D86E1D81CF2D95D00F39D41 /* tableview */,
@@ -313,6 +341,7 @@
 		2D86E25B1CF6D67400F39D41 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2DD8265E1CFC1DE600303D48 /* TabBar */,
 				2D86E2A11CF83EBA00F39D41 /* Navigation */,
 				2D86E29D1CF82D8C00F39D41 /* View */,
 				2D86E2991CF6D7CB00F39D41 /* scrollView */,
@@ -413,6 +442,41 @@
 				2D86E2A31CF83F1400F39D41 /* NavigationViewControllerDemo.m */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2DD8265A1CFC1D9600303D48 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8265B1CFC1DD300303D48 /* ZFTabBar.h */,
+				2DD8265C1CFC1DD300303D48 /* ZFTabBar.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2DD8265E1CFC1DE600303D48 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DD826621CFC1E4C00303D48 /* TabBarViewControllerDemo.h */,
+				2DD826631CFC1E4C00303D48 /* TabBarViewControllerDemo.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2DD8267A1CFC3F1C00303D48 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8267B1CFC3F1C00303D48 /* btn_release@2x.png */,
+				2DD8267C1CFC3F1C00303D48 /* btn_release@3x.png */,
+				2DD8267D1CFC3F1C00303D48 /* tab_buddy_nor@2x.png */,
+				2DD8267E1CFC3F1C00303D48 /* tab_buddy_press@2x.png */,
+				2DD8267F1CFC3F1C00303D48 /* tab_me_nor@2x.png */,
+				2DD826801CFC3F1C00303D48 /* tab_me_press@2x.png */,
+				2DD826811CFC3F1C00303D48 /* tab_qworld_nor@2x.png */,
+				2DD826821CFC3F1C00303D48 /* tab_qworld_press@2x.png */,
+				2DD826831CFC3F1C00303D48 /* tab_recent_nor@2x.png */,
+				2DD826841CFC3F1C00303D48 /* tab_recent_press@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,15 +583,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D86E28B1CF6D67400F39D41 /* demo1TableViewCell.xib in Resources */,
+				2DD8268B1CFC3F1C00303D48 /* tab_qworld_nor@2x.png in Resources */,
 				2D86E2891CF6D67400F39D41 /* xibCollectionViewCell.xib in Resources */,
+				2DD8268E1CFC3F1C00303D48 /* tab_recent_press@2x.png in Resources */,
+				2DD8268D1CFC3F1C00303D48 /* tab_recent_nor@2x.png in Resources */,
+				2DD826891CFC3F1C00303D48 /* tab_me_nor@2x.png in Resources */,
 				2D86E2851CF6D67400F39D41 /* xib1CollectionViewCell.xib in Resources */,
+				2DD8268A1CFC3F1C00303D48 /* tab_me_press@2x.png in Resources */,
 				2D86E2011CF3EFFB00F39D41 /* selectFunction.storyboard in Resources */,
 				2D13FEAE1CE962E8002D2A39 /* LaunchScreen.storyboard in Resources */,
 				2D86E28D1CF6D67400F39D41 /* demo2TableViewCell.xib in Resources */,
+				2DD826871CFC3F1C00303D48 /* tab_buddy_nor@2x.png in Resources */,
 				2D86E29F1CF82DC800F39D41 /* View.xib in Resources */,
+				2DD8268C1CFC3F1C00303D48 /* tab_qworld_press@2x.png in Resources */,
 				2D86E2871CF6D67400F39D41 /* xib2CollectionViewCell.xib in Resources */,
+				2DD826861CFC3F1C00303D48 /* btn_release@3x.png in Resources */,
+				2DD826851CFC3F1C00303D48 /* btn_release@2x.png in Resources */,
 				2D13FEAB1CE962E8002D2A39 /* Assets.xcassets in Resources */,
 				2D13FEA61CE962E8002D2A39 /* Main.storyboard in Resources */,
+				2DD826881CFC3F1C00303D48 /* tab_buddy_press@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,11 +643,13 @@
 				2D86E2881CF6D67400F39D41 /* xibCollectionViewCell.m in Sources */,
 				2D13FED61CE963C0002D2A39 /* ZFCollectionViewCell.m in Sources */,
 				2D86E28E1CF6D67400F39D41 /* demoTableViewCell.m in Sources */,
+				2DD8265D1CFC1DD300303D48 /* ZFTabBar.m in Sources */,
 				2D86E2931CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m in Sources */,
 				2D13FEDC1CE97634002D2A39 /* ZFCollectionView.m in Sources */,
 				2D13FEA91CE962E8002D2A39 /* ____.xcdatamodeld in Sources */,
 				2D86E28C1CF6D67400F39D41 /* demo2TableViewCell.m in Sources */,
 				2DD826531CFBCBEA00303D48 /* ZFNavigationViewController.m in Sources */,
+				2DD826641CFC1E4C00303D48 /* TabBarViewControllerDemo.m in Sources */,
 				2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */,
 				2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */,
 				2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */,

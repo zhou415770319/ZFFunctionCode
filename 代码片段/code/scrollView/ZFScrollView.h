@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol ZFScrollViewDelegate <NSObject>
-
+//点击按钮的delegate方法
 -(void)clickNextBtn;
 
 @end
