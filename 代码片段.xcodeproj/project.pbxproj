@@ -21,6 +21,13 @@
 		2D13FEDF1CE987A8002D2A39 /* ZFCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13FEDE1CE987A8002D2A39 /* ZFCollectionViewLayout.m */; };
 		2D13FEE21CE99521002D2A39 /* ZFCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13FEE11CE99521002D2A39 /* ZFCollectionViewCellModel.m */; };
 		2D13FEE51CE9B5F2002D2A39 /* ZFCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13FEE41CE9B5F2002D2A39 /* ZFCollectionViewFlowLayout.m */; };
+		2D7FC5181D0BA6A6007BA711 /* AutolayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FC5171D0BA6A6007BA711 /* AutolayoutView.m */; };
+		2D7FC51D1D0C5741007BA711 /* ZFImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FC51C1D0C5741007BA711 /* ZFImageview.m */; };
+		2D7FC5201D0C586E007BA711 /* UIImage+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FC51F1D0C586E007BA711 /* UIImage+FileName.m */; };
+		2D8126F01D0819BE00F6E87B /* ZFSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8126EF1D0819BE00F6E87B /* ZFSettingTableViewController.m */; };
+		2D8126F31D0819E200F6E87B /* ZFHeaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8126F21D0819E200F6E87B /* ZFHeaderTableViewController.m */; };
+		2D8126F61D0819FB00F6E87B /* ZFFooterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8126F51D0819FB00F6E87B /* ZFFooterTableViewController.m */; };
+		2D8126F91D081A0B00F6E87B /* ZFEditingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8126F81D081A0B00F6E87B /* ZFEditingTableViewController.m */; };
 		2D853C071CEC6802000D406B /* selectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D853C061CEC6802000D406B /* selectTableViewController.m */; };
 		2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1F81CF3EEF500F39D41 /* ZFTableView.m */; };
 		2D86E1FE1CF3EEF500F39D41 /* ZFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86E1FA1CF3EEF500F39D41 /* ZFTableViewCell.m */; };
@@ -111,6 +118,20 @@
 		2D13FEE11CE99521002D2A39 /* ZFCollectionViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewCellModel.m; sourceTree = "<group>"; };
 		2D13FEE31CE9B5F2002D2A39 /* ZFCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		2D13FEE41CE9B5F2002D2A39 /* ZFCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		2D7FC5161D0BA6A6007BA711 /* AutolayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutView.h; sourceTree = "<group>"; };
+		2D7FC5171D0BA6A6007BA711 /* AutolayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutView.m; sourceTree = "<group>"; };
+		2D7FC51B1D0C5741007BA711 /* ZFImageview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFImageview.h; sourceTree = "<group>"; };
+		2D7FC51C1D0C5741007BA711 /* ZFImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFImageview.m; sourceTree = "<group>"; };
+		2D7FC51E1D0C586E007BA711 /* UIImage+FileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FileName.h"; sourceTree = "<group>"; };
+		2D7FC51F1D0C586E007BA711 /* UIImage+FileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FileName.m"; sourceTree = "<group>"; };
+		2D8126EE1D0819BE00F6E87B /* ZFSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSettingTableViewController.h; sourceTree = "<group>"; };
+		2D8126EF1D0819BE00F6E87B /* ZFSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSettingTableViewController.m; sourceTree = "<group>"; };
+		2D8126F11D0819E200F6E87B /* ZFHeaderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHeaderTableViewController.h; sourceTree = "<group>"; };
+		2D8126F21D0819E200F6E87B /* ZFHeaderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHeaderTableViewController.m; sourceTree = "<group>"; };
+		2D8126F41D0819FB00F6E87B /* ZFFooterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFFooterTableViewController.h; sourceTree = "<group>"; };
+		2D8126F51D0819FB00F6E87B /* ZFFooterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFFooterTableViewController.m; sourceTree = "<group>"; };
+		2D8126F71D081A0B00F6E87B /* ZFEditingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFEditingTableViewController.h; sourceTree = "<group>"; };
+		2D8126F81D081A0B00F6E87B /* ZFEditingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFEditingTableViewController.m; sourceTree = "<group>"; };
 		2D853C051CEC6802000D406B /* selectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectTableViewController.h; sourceTree = "<group>"; };
 		2D853C061CEC6802000D406B /* selectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectTableViewController.m; sourceTree = "<group>"; };
 		2D86E1F71CF3EEF500F39D41 /* ZFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableView.h; sourceTree = "<group>"; };
@@ -289,6 +310,8 @@
 		2D13FED21CE9635F002D2A39 /* code */ = {
 			isa = PBXGroup;
 			children = (
+				2D7FC5191D0C56E6007BA711 /* Imageview */,
+				2D7FC5151D0BA690007BA711 /* AutoLayout */,
 				2DD8265A1CFC1D9600303D48 /* TabBar */,
 				2D86E2A01CF8374300F39D41 /* Navigation */,
 				2D86E25A1CF6D65700F39D41 /* scrollView */,
@@ -316,6 +339,33 @@
 			path = collection;
 			sourceTree = "<group>";
 		};
+		2D7FC5151D0BA690007BA711 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2D7FC5161D0BA6A6007BA711 /* AutolayoutView.h */,
+				2D7FC5171D0BA6A6007BA711 /* AutolayoutView.m */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		2D7FC5191D0C56E6007BA711 /* Imageview */ = {
+			isa = PBXGroup;
+			children = (
+				2D7FC51E1D0C586E007BA711 /* UIImage+FileName.h */,
+				2D7FC51F1D0C586E007BA711 /* UIImage+FileName.m */,
+				2D7FC51B1D0C5741007BA711 /* ZFImageview.h */,
+				2D7FC51C1D0C5741007BA711 /* ZFImageview.m */,
+			);
+			path = Imageview;
+			sourceTree = "<group>";
+		};
+		2D7FC51A1D0C56FD007BA711 /* Imageview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Imageview;
+			sourceTree = "<group>";
+		};
 		2D86E1D81CF2D95D00F39D41 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +391,7 @@
 		2D86E25B1CF6D67400F39D41 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2D7FC51A1D0C56FD007BA711 /* Imageview */,
 				2DD8265E1CFC1DE600303D48 /* TabBar */,
 				2D86E2A11CF83EBA00F39D41 /* Navigation */,
 				2D86E29D1CF82D8C00F39D41 /* View */,
@@ -386,6 +437,14 @@
 				2D86E2721CF6D67400F39D41 /* demoTableViewCell.m */,
 				2D86E2731CF6D67400F39D41 /* TableViewControllerDemo.h */,
 				2D86E2741CF6D67400F39D41 /* TableViewControllerDemo.m */,
+				2D8126EE1D0819BE00F6E87B /* ZFSettingTableViewController.h */,
+				2D8126EF1D0819BE00F6E87B /* ZFSettingTableViewController.m */,
+				2D8126F11D0819E200F6E87B /* ZFHeaderTableViewController.h */,
+				2D8126F21D0819E200F6E87B /* ZFHeaderTableViewController.m */,
+				2D8126F41D0819FB00F6E87B /* ZFFooterTableViewController.h */,
+				2D8126F51D0819FB00F6E87B /* ZFFooterTableViewController.m */,
+				2D8126F71D081A0B00F6E87B /* ZFEditingTableViewController.h */,
+				2D8126F81D081A0B00F6E87B /* ZFEditingTableViewController.m */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -638,12 +697,15 @@
 				2D86E2911CF6D67400F39D41 /* ZFCollectionViewFlowLayoutLineTypeViewController.m in Sources */,
 				2D86E2841CF6D67400F39D41 /* xib1CollectionViewCell.m in Sources */,
 				2D86E2981CF6D78500F39D41 /* ZFScrollView.m in Sources */,
+				2D7FC5201D0C586E007BA711 /* UIImage+FileName.m in Sources */,
 				2D853C071CEC6802000D406B /* selectTableViewController.m in Sources */,
 				2D86E2A41CF83F1400F39D41 /* NavigationViewControllerDemo.m in Sources */,
 				2D86E2881CF6D67400F39D41 /* xibCollectionViewCell.m in Sources */,
 				2D13FED61CE963C0002D2A39 /* ZFCollectionViewCell.m in Sources */,
 				2D86E28E1CF6D67400F39D41 /* demoTableViewCell.m in Sources */,
 				2DD8265D1CFC1DD300303D48 /* ZFTabBar.m in Sources */,
+				2D8126F01D0819BE00F6E87B /* ZFSettingTableViewController.m in Sources */,
+				2D8126F91D081A0B00F6E87B /* ZFEditingTableViewController.m in Sources */,
 				2D86E2931CF6D67400F39D41 /* ZFCollectionViewFlowLayoutWaterfallTypeViewController.m in Sources */,
 				2D13FEDC1CE97634002D2A39 /* ZFCollectionView.m in Sources */,
 				2D13FEA91CE962E8002D2A39 /* ____.xcdatamodeld in Sources */,
@@ -651,6 +713,7 @@
 				2DD826531CFBCBEA00303D48 /* ZFNavigationViewController.m in Sources */,
 				2DD826641CFC1E4C00303D48 /* TabBarViewControllerDemo.m in Sources */,
 				2D86E29C1CF6D82400F39D41 /* ScrollViewControllerDemo.m in Sources */,
+				2D7FC51D1D0C5741007BA711 /* ZFImageview.m in Sources */,
 				2D86E1FF1CF3EEF500F39D41 /* ZFTableViewCellModel.m in Sources */,
 				2D86E1FD1CF3EEF500F39D41 /* ZFTableView.m in Sources */,
 				2D86E2921CF6D67400F39D41 /* ZFCollectionViewFlowLayoutRotatePageTypeViewController.m in Sources */,
@@ -661,6 +724,9 @@
 				2D13FE9D1CE962E8002D2A39 /* main.m in Sources */,
 				2D86E2831CF6D67400F39D41 /* demoCollectionViewCell.m in Sources */,
 				2D86E2861CF6D67400F39D41 /* xib2CollectionViewCell.m in Sources */,
+				2D7FC5181D0BA6A6007BA711 /* AutolayoutView.m in Sources */,
+				2D8126F61D0819FB00F6E87B /* ZFFooterTableViewController.m in Sources */,
+				2D8126F31D0819E200F6E87B /* ZFHeaderTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

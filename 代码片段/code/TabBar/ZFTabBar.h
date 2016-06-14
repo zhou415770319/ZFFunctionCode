@@ -30,12 +30,16 @@
 @property (nonatomic, strong) NSMutableArray * titleLabels;
 
 
-@property (nonatomic, strong) NSMutableArray * unSelectedImages;
+@property (nonatomic, strong) NSMutableArray * images;
 @property (nonatomic, strong) NSMutableArray * selectedImages;
 @property (nonatomic, strong) NSMutableArray * titles;
 
 @property (nonatomic, weak) id<ZFTabBarViewDelegate>delegate;
 
+
+-(id)initWithImages:(NSMutableArray *)images
+       SelectImages:(NSMutableArray *)selectImages
+             titles:(NSMutableArray *)titles;
 - (id)initWithItemSelectedImages:(NSMutableArray *)selected
                     normalImages:(NSMutableArray *)normal
                           titles:(NSMutableArray *)titles;

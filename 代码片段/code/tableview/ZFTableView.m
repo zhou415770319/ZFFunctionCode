@@ -103,6 +103,16 @@
     return height;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    
+    float height = 0;
+    if (self.heightForFooter) {
+        height =self.heightForFooter;
+    }
+    
+    return height;
+}
+
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -142,6 +152,8 @@
     }
     
     cell.cellInfo = cellInfo;
+    cell.selectionStyle = self.tableViewCellSelectionStyle;
+
     return cell;
     
 }
@@ -172,6 +184,18 @@
         }
     }
     return nil;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+    return _headerView;
+    
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    
+    return _FooterView;
+    
 }
 
 @end

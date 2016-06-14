@@ -48,10 +48,13 @@
     NSMutableArray * array = [[NSMutableArray alloc]initWithObjects:[UIImage imageNamed:@"tab_buddy_nor.png"],[UIImage imageNamed:@"tab_me_nor.png"],[UIImage imageNamed:@"tab_qworld_nor.png"],[UIImage imageNamed:@"tab_recent_nor.png"],[UIImage imageNamed:@"tab_recent_press.png"], nil];
     NSMutableArray * selectedArray = [[NSMutableArray alloc]initWithObjects:[UIImage imageNamed:@"tab_buddy_press.png"],[UIImage imageNamed:@"tab_me_press.png"],[UIImage imageNamed:@"tab_qworld_press.png"],[UIImage imageNamed:@"tab_recent_press.png"],[UIImage imageNamed:@"tab_recent_press.png"], nil];
     NSMutableArray * titles = [[NSMutableArray alloc]initWithObjects:@"场 馆 预 定",@"停  车",@"发  现",@"我",@"heh", nil];
+    NSMutableArray *arr = [NSMutableArray arrayWithCapacity:1];
+    [arr addObjectsFromArray:@[@"tab_buddy_nor.png",@"tab_me_nor.png",@"tab_qworld_nor.png"]];
+    NSMutableArray *arr1 = [NSMutableArray arrayWithCapacity:1];
+    [arr1 addObjectsFromArray:@[@"tab_buddy_press.png",@"tab_me_press.png",@"tab_qworld_press.png"]];
+    self.tabBarView = [[ZFTabBar alloc]initWithImages:arr SelectImages:arr1 titles:titles];
     
-
-    
-    self.tabBarView = [[ZFTabBar alloc]initWithItemSelectedImages:selectedArray normalImages:array titles:titles];
+//    self.tabBarView = [[ZFTabBar alloc]initWithItemSelectedImages:selectedArray normalImages:array titles:titles];
     self.tabBarView.backgroundColor = [UIColor whiteColor];
     self.tabBarView.frame =CGRectMake(0, SCREENHEIGHT - 49, SCREENWIDTH, 49);
     [self.tabBarView tabBarBadgeValue:10 item:1];

@@ -17,11 +17,16 @@
 
 //没有设置cell类型的情况下可以设置tableViewCellStyle 默认为UITableViewCellStyleDefault
 @property(nonatomic)UITableViewCellStyle tableViewCellStyle;
-
+//UITableViewCellAccessoryType
+@property(nonatomic)UITableViewCellAccessoryType tableViewCellAccessoryType;
 
 //didSelectRow 需要跳转的controller
 @property(nonatomic,copy)NSString *PopToViewController;
 
+
+
+
+//扩展参数
 
 //标题
 @property(nonatomic,copy)NSString *title;
@@ -30,5 +35,13 @@
 //子标题
 @property(nonatomic,copy)NSString *des;
 
+
+//textField placeholder
+@property(nonatomic,copy)NSString *textFieldPlace;
+
+@property(nonatomic)UIKeyboardType keyboardType;
+
+//cell  代理controller
+@property(nonatomic,retain)UIViewController *ownViewController;
 
 @end

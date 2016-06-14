@@ -28,6 +28,21 @@
  */
 @property (nonatomic,assign)CGFloat heightForHeader;
 
+/**
+ *  footer 高度
+ */
+@property (nonatomic,assign)CGFloat heightForFooter;
+
+@property (nonatomic,retain)UIView *headerView;
+
+@property (nonatomic,retain)UIView *FooterView;
+
+
+/**
+ *  cell SelectionStyle
+ */
+@property (nonatomic,assign)UITableViewCellSelectionStyle tableViewCellSelectionStyle;
+
 
 
 @end

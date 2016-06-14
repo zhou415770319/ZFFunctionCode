@@ -1,23 +1,22 @@
 //
-//  TableViewControllerDemo.m
+//  ZFSettingTableViewController.m
 //  代码片段
 //
-//  Created by w on 16/5/24.
+//  Created by w on 16/6/8.
 //  Copyright © 2016年 ZF. All rights reserved.
 //
 
-#import "TableViewControllerDemo.h"
+#import "ZFSettingTableViewController.h"
 #import "ZFTableView.h"
 
-@interface TableViewControllerDemo ()
-
+@interface ZFSettingTableViewController ()
 //显示数据
 @property(nonatomic,retain)NSMutableArray *infos;
 
+
 @end
 
-@implementation TableViewControllerDemo
-
+@implementation ZFSettingTableViewController
 
 /*
  懒加载数据
@@ -38,7 +37,7 @@
             //                model.cellName =@"demoTableViewCell";
             //            }else{
             
-//            model.xibCellName =@"demo2TableViewCell";
+            //            model.xibCellName =@"demo2TableViewCell";
             
             //            }
             
@@ -59,22 +58,10 @@
     tab.cellInfos = self.infos;
     tab.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:tab];
-//     self.tableView = tab;
+    //     self.tableView = tab;
     self.tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
-
-    
     
 }
-
-
-//-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    UITableViewCell *cell =nil;
-//    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-//    ZFTableViewCellModel *model =self.infos[indexPath.row];
-//    cell.textLabel.text =model.title;
-//    
-//    return cell;
-//}
 
 
 @end

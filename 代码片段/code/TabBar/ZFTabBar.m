@@ -20,6 +20,22 @@
 @end
 @implementation ZFTabBar
 
+-(id)initWithImages:(NSMutableArray *)images
+                   SelectImages:(NSMutableArray *)selectImages
+                         titles:(NSMutableArray *)titles{
+    if ([super init]) {
+        self.frame = CGRectMake(0, SCREENHEIGHT - 49, SCREENWIDTH, 49);
+        self.buttonArray = [NSMutableArray array];
+        self.titleLabels = [NSMutableArray array];
+        
+        self.images = images;
+        self.selectedImages = selectImages;
+        self.titles = titles;
+        [self createUI];
+    }
+    return self;
+}
+
 -(id)initWithItemSelectedImages:(NSMutableArray *)selected
                    normalImages:(NSMutableArray *)normal
                          titles:(NSMutableArray *)titles{
@@ -28,7 +44,7 @@
         self.buttonArray = [NSMutableArray array];
         self.titleLabels = [NSMutableArray array];
         
-        self.unSelectedImages = normal;
+        self.images = normal;
         self.selectedImages = selected;
         self.titles = titles;
         [self createUI];
@@ -60,11 +76,11 @@
     
     NSArray *ary = [NSArray arrayWithObjects:[UIColor redColor],[UIColor grayColor],[UIColor blackColor],[UIColor blueColor],[UIColor greenColor], nil];
     NSArray *textAry = [NSArray arrayWithObjects:@"reservation",@"parking",@"found",@"mySelf",@"mySelf", nil];
-    for (int i = 0; i < self.unSelectedImages.count; i ++) {
+    for (int i = 0; i < self.images.count; i ++) {
         
         ZFButton * button = [ZFButton zf_shareButton];
-        [button.imageView setImage:self.unSelectedImages[i]];
-        [button.imageView setImage:self.selectedImages[i]];
+        [button.imageView setImage:[UIImage imageNamed:self.images[i]]];
+        [button.imageView setImage:[UIImage imageNamed:self.selectedImages[i]]];
         [button.titleLabel setText:self.titles[i]];
         [button.titleLabel setTextColor:[UIColor whiteColor]];
         [button setBackgroundColor:ary[i]];
