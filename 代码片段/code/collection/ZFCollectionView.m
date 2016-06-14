@@ -100,7 +100,6 @@
     }
     
     cell.cellInfo = cellInfo;
-    NSLog(@"%@",cell);
     return cell;
     
 }

@@ -103,6 +103,16 @@
     return height;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    
+    float height = 0;
+    if (self.heightForFooter) {
+        height =self.heightForFooter;
+    }
+    
+    return height;
+}
+
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -118,10 +128,32 @@
             //取出已注册的cell
             
             cell = [tableView dequeueReusableCellWithIdentifier:cellInfo.xibCellName forIndexPath:indexPath];
+        }else{
+            
+            cell = [[ZFTableViewCell alloc] initWithStyle:!cellInfo.tableViewCellStyle? UITableViewCellStyleDefault:cellInfo.tableViewCellStyle reuseIdentifier:@"cell"];
+            if (cellInfo.title) {
+                cell.textLabel.text =cellInfo.title;
+
+            }
+            if (cellInfo.des) {
+                cell.detailTextLabel.text = cellInfo.des;
+            }
+            if (cellInfo.imgName) {
+                cell.imageView.image =[UIImage imageNamed:cellInfo.imgName];
+            }
+//            cell.backgroundColor =[UIColor redColor];
+#warning cell的Frame设置
+            
+            UIView *v =[[UIView alloc]initWithFrame:CGRectMake(10, cell.frame.size.height+15, cell.frame.size.width+32, 1)];
+            v.backgroundColor = [UIColor darkGrayColor];
+            [cell.contentView addSubview:v];
+            
         }
     }
     
     cell.cellInfo = cellInfo;
+    cell.selectionStyle = self.tableViewCellSelectionStyle;
+
     return cell;
     
 }
@@ -152,6 +184,18 @@
         }
     }
     return nil;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+    return _headerView;
+    
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    
+    return _FooterView;
+    
 }
 
 @end

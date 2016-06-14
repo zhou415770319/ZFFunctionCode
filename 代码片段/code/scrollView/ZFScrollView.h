@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ZFScrollViewDelegate <NSObject>
+//点击按钮的delegate方法
+-(void)clickNextBtn;
+
+@end
+
 @interface ZFScrollView : UIView
 //
 @property (nonatomic,retain)NSMutableArray *infos;
@@ -16,6 +22,7 @@
 //
 @property (nonatomic,copy)NSString *xibName;
 
+@property (nonatomic,retain)id<ZFScrollViewDelegate> delegate;
 
 
 //是否添加自动滚动  默认 no
@@ -23,6 +30,10 @@
 
 //动画时间可设置，默认2.0秒
 @property(nonatomic,assign)CGFloat animationDuration;
+
+
+//是否添加nextButton  默认 no
+@property(nonatomic,assign)bool isAddButton;
 
 
 @end

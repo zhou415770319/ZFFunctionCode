@@ -12,4 +12,6 @@
 //数据
 @property(nonatomic,retain)ZFTableViewCellModel *cellInfo;
 
+@property(nonatomic,retain)UITextField* textField;
+
 @end

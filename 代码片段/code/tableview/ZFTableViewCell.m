@@ -23,5 +23,15 @@
 
 }
 
+-(UITextField *)textField{
+    
+    if (!_textField) {
+        _textField = [[UITextField alloc]init];
+        [self addSubview:_textField];
+    }
+    
+    return _textField;
+}
+
 
 @end
